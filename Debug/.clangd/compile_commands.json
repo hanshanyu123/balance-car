@@ -1,0 +1,362 @@
+[
+   {
+      "directory" : "C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang/Debug",
+      "command"   : "clang++ -D__MSPM0G3507__ -D__USE_SYSCONFIG__ -I\"C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang\" -I\"C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang/Debug\" -I\"D:/mspm0_sdk_2_10_00_04/source/third_party/CMSIS/Core/Include\" -I\"D:/mspm0_sdk_2_10_00_04/source\" -isystem\"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/include/armv7em-ti-none-eabihf/c++/v1\" -isystem\"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/include/c++/v1\" -isystem\"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/lib/clang/18/include\" -isystem\"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/include/c\" -xc",
+      "file"      : "C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang/ti/driverlib/dl_adc12.c"
+   },
+   {
+      "directory" : "C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang/Debug",
+      "command"   : "clang++ -D__MSPM0G3507__ -D__USE_SYSCONFIG__ -I\"C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang\" -I\"C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang/Debug\" -I\"D:/mspm0_sdk_2_10_00_04/source/third_party/CMSIS/Core/Include\" -I\"D:/mspm0_sdk_2_10_00_04/source\" -isystem\"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/include/armv7em-ti-none-eabihf/c++/v1\" -isystem\"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/include/c++/v1\" -isystem\"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/lib/clang/18/include\" -isystem\"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/include/c\" -xc",
+      "file"      : "C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang/ti/driverlib/dl_aes.c"
+   },
+   {
+      "directory" : "C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang/Debug",
+      "command"   : "clang++ -D__MSPM0G3507__ -D__USE_SYSCONFIG__ -I\"C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang\" -I\"C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang/Debug\" -I\"D:/mspm0_sdk_2_10_00_04/source/third_party/CMSIS/Core/Include\" -I\"D:/mspm0_sdk_2_10_00_04/source\" -isystem\"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/include/armv7em-ti-none-eabihf/c++/v1\" -isystem\"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/include/c++/v1\" -isystem\"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/lib/clang/18/include\" -isystem\"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/include/c\" -xc",
+      "file"      : "C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang/ti/driverlib/dl_aesadv.c"
+   },
+   {
+      "directory" : "C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang/Debug",
+      "command"   : "clang++ -D__MSPM0G3507__ -D__USE_SYSCONFIG__ -I\"C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang\" -I\"C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang/Debug\" -I\"D:/mspm0_sdk_2_10_00_04/source/third_party/CMSIS/Core/Include\" -I\"D:/mspm0_sdk_2_10_00_04/source\" -isystem\"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/include/armv7em-ti-none-eabihf/c++/v1\" -isystem\"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/include/c++/v1\" -isystem\"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/lib/clang/18/include\" -isystem\"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/include/c\" -xc",
+      "file"      : "C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang/ti/driverlib/dl_common.c"
+   },
+   {
+      "directory" : "C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang/Debug",
+      "command"   : "clang++ -D__MSPM0G3507__ -D__USE_SYSCONFIG__ -I\"C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang\" -I\"C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang/Debug\" -I\"D:/mspm0_sdk_2_10_00_04/source/third_party/CMSIS/Core/Include\" -I\"D:/mspm0_sdk_2_10_00_04/source\" -isystem\"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/include/armv7em-ti-none-eabihf/c++/v1\" -isystem\"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/include/c++/v1\" -isystem\"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/lib/clang/18/include\" -isystem\"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/include/c\" -xc",
+      "file"      : "C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang/ti/driverlib/dl_comp.c"
+   },
+   {
+      "directory" : "C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang/Debug",
+      "command"   : "clang++ -D__MSPM0G3507__ -D__USE_SYSCONFIG__ -I\"C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang\" -I\"C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang/Debug\" -I\"D:/mspm0_sdk_2_10_00_04/source/third_party/CMSIS/Core/Include\" -I\"D:/mspm0_sdk_2_10_00_04/source\" -isystem\"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/include/armv7em-ti-none-eabihf/c++/v1\" -isystem\"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/include/c++/v1\" -isystem\"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/lib/clang/18/include\" -isystem\"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/include/c\" -xc",
+      "file"      : "C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang/ti/driverlib/dl_crc.c"
+   },
+   {
+      "directory" : "C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang/Debug",
+      "command"   : "clang++ -D__MSPM0G3507__ -D__USE_SYSCONFIG__ -I\"C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang\" -I\"C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang/Debug\" -I\"D:/mspm0_sdk_2_10_00_04/source/third_party/CMSIS/Core/Include\" -I\"D:/mspm0_sdk_2_10_00_04/source\" -isystem\"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/include/armv7em-ti-none-eabihf/c++/v1\" -isystem\"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/include/c++/v1\" -isystem\"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/lib/clang/18/include\" -isystem\"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/include/c\" -xc",
+      "file"      : "C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang/ti/driverlib/dl_crcp.c"
+   },
+   {
+      "directory" : "C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang/Debug",
+      "command"   : "clang++ -D__MSPM0G3507__ -D__USE_SYSCONFIG__ -I\"C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang\" -I\"C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang/Debug\" -I\"D:/mspm0_sdk_2_10_00_04/source/third_party/CMSIS/Core/Include\" -I\"D:/mspm0_sdk_2_10_00_04/source\" -isystem\"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/include/armv7em-ti-none-eabihf/c++/v1\" -isystem\"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/include/c++/v1\" -isystem\"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/lib/clang/18/include\" -isystem\"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/include/c\" -xc",
+      "file"      : "C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang/ti/driverlib/dl_dac12.c"
+   },
+   {
+      "directory" : "C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang/Debug",
+      "command"   : "clang++ -D__MSPM0G3507__ -D__USE_SYSCONFIG__ -I\"C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang\" -I\"C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang/Debug\" -I\"D:/mspm0_sdk_2_10_00_04/source/third_party/CMSIS/Core/Include\" -I\"D:/mspm0_sdk_2_10_00_04/source\" -isystem\"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/include/armv7em-ti-none-eabihf/c++/v1\" -isystem\"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/include/c++/v1\" -isystem\"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/lib/clang/18/include\" -isystem\"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/include/c\" -xc",
+      "file"      : "C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang/ti/driverlib/dl_dma.c"
+   },
+   {
+      "directory" : "C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang/Debug",
+      "command"   : "clang++ -D__MSPM0G3507__ -D__USE_SYSCONFIG__ -I\"C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang\" -I\"C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang/Debug\" -I\"D:/mspm0_sdk_2_10_00_04/source/third_party/CMSIS/Core/Include\" -I\"D:/mspm0_sdk_2_10_00_04/source\" -isystem\"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/include/armv7em-ti-none-eabihf/c++/v1\" -isystem\"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/include/c++/v1\" -isystem\"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/lib/clang/18/include\" -isystem\"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/include/c\" -xc",
+      "file"      : "C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang/ti/driverlib/dl_flashctl.c"
+   },
+   {
+      "directory" : "C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang/Debug",
+      "command"   : "clang++ -D__MSPM0G3507__ -D__USE_SYSCONFIG__ -I\"C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang\" -I\"C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang/Debug\" -I\"D:/mspm0_sdk_2_10_00_04/source/third_party/CMSIS/Core/Include\" -I\"D:/mspm0_sdk_2_10_00_04/source\" -isystem\"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/include/armv7em-ti-none-eabihf/c++/v1\" -isystem\"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/include/c++/v1\" -isystem\"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/lib/clang/18/include\" -isystem\"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/include/c\" -xc",
+      "file"      : "C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang/ti/driverlib/dl_gpamp.c"
+   },
+   {
+      "directory" : "C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang/Debug",
+      "command"   : "clang++ -D__MSPM0G3507__ -D__USE_SYSCONFIG__ -I\"C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang\" -I\"C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang/Debug\" -I\"D:/mspm0_sdk_2_10_00_04/source/third_party/CMSIS/Core/Include\" -I\"D:/mspm0_sdk_2_10_00_04/source\" -isystem\"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/include/armv7em-ti-none-eabihf/c++/v1\" -isystem\"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/include/c++/v1\" -isystem\"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/lib/clang/18/include\" -isystem\"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/include/c\" -xc",
+      "file"      : "C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang/ti/driverlib/dl_gpio.c"
+   },
+   {
+      "directory" : "C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang/Debug",
+      "command"   : "clang++ -D__MSPM0G3507__ -D__USE_SYSCONFIG__ -I\"C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang\" -I\"C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang/Debug\" -I\"D:/mspm0_sdk_2_10_00_04/source/third_party/CMSIS/Core/Include\" -I\"D:/mspm0_sdk_2_10_00_04/source\" -isystem\"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/include/armv7em-ti-none-eabihf/c++/v1\" -isystem\"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/include/c++/v1\" -isystem\"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/lib/clang/18/include\" -isystem\"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/include/c\" -xc",
+      "file"      : "C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang/ti/driverlib/dl_i2c.c"
+   },
+   {
+      "directory" : "C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang/Debug",
+      "command"   : "clang++ -D__MSPM0G3507__ -D__USE_SYSCONFIG__ -I\"C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang\" -I\"C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang/Debug\" -I\"D:/mspm0_sdk_2_10_00_04/source/third_party/CMSIS/Core/Include\" -I\"D:/mspm0_sdk_2_10_00_04/source\" -isystem\"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/include/armv7em-ti-none-eabihf/c++/v1\" -isystem\"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/include/c++/v1\" -isystem\"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/lib/clang/18/include\" -isystem\"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/include/c\" -xc",
+      "file"      : "C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang/ti/driverlib/dl_i2s.c"
+   },
+   {
+      "directory" : "C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang/Debug",
+      "command"   : "clang++ -D__MSPM0G3507__ -D__USE_SYSCONFIG__ -I\"C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang\" -I\"C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang/Debug\" -I\"D:/mspm0_sdk_2_10_00_04/source/third_party/CMSIS/Core/Include\" -I\"D:/mspm0_sdk_2_10_00_04/source\" -isystem\"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/include/armv7em-ti-none-eabihf/c++/v1\" -isystem\"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/include/c++/v1\" -isystem\"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/lib/clang/18/include\" -isystem\"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/include/c\" -xc",
+      "file"      : "C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang/ti/driverlib/dl_iwdt.c"
+   },
+   {
+      "directory" : "C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang/Debug",
+      "command"   : "clang++ -D__MSPM0G3507__ -D__USE_SYSCONFIG__ -I\"C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang\" -I\"C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang/Debug\" -I\"D:/mspm0_sdk_2_10_00_04/source/third_party/CMSIS/Core/Include\" -I\"D:/mspm0_sdk_2_10_00_04/source\" -isystem\"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/include/armv7em-ti-none-eabihf/c++/v1\" -isystem\"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/include/c++/v1\" -isystem\"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/lib/clang/18/include\" -isystem\"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/include/c\" -xc",
+      "file"      : "C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang/ti/driverlib/dl_keystorectl.c"
+   },
+   {
+      "directory" : "C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang/Debug",
+      "command"   : "clang++ -D__MSPM0G3507__ -D__USE_SYSCONFIG__ -I\"C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang\" -I\"C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang/Debug\" -I\"D:/mspm0_sdk_2_10_00_04/source/third_party/CMSIS/Core/Include\" -I\"D:/mspm0_sdk_2_10_00_04/source\" -isystem\"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/include/armv7em-ti-none-eabihf/c++/v1\" -isystem\"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/include/c++/v1\" -isystem\"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/lib/clang/18/include\" -isystem\"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/include/c\" -xc",
+      "file"      : "C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang/ti/driverlib/dl_lcd.c"
+   },
+   {
+      "directory" : "C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang/Debug",
+      "command"   : "clang++ -D__MSPM0G3507__ -D__USE_SYSCONFIG__ -I\"C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang\" -I\"C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang/Debug\" -I\"D:/mspm0_sdk_2_10_00_04/source/third_party/CMSIS/Core/Include\" -I\"D:/mspm0_sdk_2_10_00_04/source\" -isystem\"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/include/armv7em-ti-none-eabihf/c++/v1\" -isystem\"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/include/c++/v1\" -isystem\"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/lib/clang/18/include\" -isystem\"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/include/c\" -xc",
+      "file"      : "C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang/ti/driverlib/dl_lfss.c"
+   },
+   {
+      "directory" : "C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang/Debug",
+      "command"   : "clang++ -D__MSPM0G3507__ -D__USE_SYSCONFIG__ -I\"C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang\" -I\"C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang/Debug\" -I\"D:/mspm0_sdk_2_10_00_04/source/third_party/CMSIS/Core/Include\" -I\"D:/mspm0_sdk_2_10_00_04/source\" -isystem\"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/include/armv7em-ti-none-eabihf/c++/v1\" -isystem\"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/include/c++/v1\" -isystem\"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/lib/clang/18/include\" -isystem\"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/include/c\" -xc",
+      "file"      : "C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang/ti/driverlib/dl_mathacl.c"
+   },
+   {
+      "directory" : "C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang/Debug",
+      "command"   : "clang++ -D__MSPM0G3507__ -D__USE_SYSCONFIG__ -I\"C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang\" -I\"C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang/Debug\" -I\"D:/mspm0_sdk_2_10_00_04/source/third_party/CMSIS/Core/Include\" -I\"D:/mspm0_sdk_2_10_00_04/source\" -isystem\"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/include/armv7em-ti-none-eabihf/c++/v1\" -isystem\"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/include/c++/v1\" -isystem\"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/lib/clang/18/include\" -isystem\"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/include/c\" -xc",
+      "file"      : "C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang/ti/driverlib/dl_mcan.c"
+   },
+   {
+      "directory" : "C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang/Debug",
+      "command"   : "clang++ -D__MSPM0G3507__ -D__USE_SYSCONFIG__ -I\"C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang\" -I\"C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang/Debug\" -I\"D:/mspm0_sdk_2_10_00_04/source/third_party/CMSIS/Core/Include\" -I\"D:/mspm0_sdk_2_10_00_04/source\" -isystem\"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/include/armv7em-ti-none-eabihf/c++/v1\" -isystem\"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/include/c++/v1\" -isystem\"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/lib/clang/18/include\" -isystem\"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/include/c\" -xc",
+      "file"      : "C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang/ti/driverlib/dl_npu.c"
+   },
+   {
+      "directory" : "C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang/Debug",
+      "command"   : "clang++ -D__MSPM0G3507__ -D__USE_SYSCONFIG__ -I\"C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang\" -I\"C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang/Debug\" -I\"D:/mspm0_sdk_2_10_00_04/source/third_party/CMSIS/Core/Include\" -I\"D:/mspm0_sdk_2_10_00_04/source\" -isystem\"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/include/armv7em-ti-none-eabihf/c++/v1\" -isystem\"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/include/c++/v1\" -isystem\"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/lib/clang/18/include\" -isystem\"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/include/c\" -xc",
+      "file"      : "C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang/ti/driverlib/dl_opa.c"
+   },
+   {
+      "directory" : "C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang/Debug",
+      "command"   : "clang++ -D__MSPM0G3507__ -D__USE_SYSCONFIG__ -I\"C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang\" -I\"C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang/Debug\" -I\"D:/mspm0_sdk_2_10_00_04/source/third_party/CMSIS/Core/Include\" -I\"D:/mspm0_sdk_2_10_00_04/source\" -isystem\"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/include/armv7em-ti-none-eabihf/c++/v1\" -isystem\"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/include/c++/v1\" -isystem\"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/lib/clang/18/include\" -isystem\"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/include/c\" -xc",
+      "file"      : "C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang/ti/driverlib/dl_rtc.c"
+   },
+   {
+      "directory" : "C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang/Debug",
+      "command"   : "clang++ -D__MSPM0G3507__ -D__USE_SYSCONFIG__ -I\"C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang\" -I\"C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang/Debug\" -I\"D:/mspm0_sdk_2_10_00_04/source/third_party/CMSIS/Core/Include\" -I\"D:/mspm0_sdk_2_10_00_04/source\" -isystem\"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/include/armv7em-ti-none-eabihf/c++/v1\" -isystem\"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/include/c++/v1\" -isystem\"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/lib/clang/18/include\" -isystem\"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/include/c\" -xc",
+      "file"      : "C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang/ti/driverlib/dl_rtc_a.c"
+   },
+   {
+      "directory" : "C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang/Debug",
+      "command"   : "clang++ -D__MSPM0G3507__ -D__USE_SYSCONFIG__ -I\"C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang\" -I\"C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang/Debug\" -I\"D:/mspm0_sdk_2_10_00_04/source/third_party/CMSIS/Core/Include\" -I\"D:/mspm0_sdk_2_10_00_04/source\" -isystem\"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/include/armv7em-ti-none-eabihf/c++/v1\" -isystem\"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/include/c++/v1\" -isystem\"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/lib/clang/18/include\" -isystem\"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/include/c\" -xc",
+      "file"      : "C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang/ti/driverlib/dl_rtc_b.c"
+   },
+   {
+      "directory" : "C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang/Debug",
+      "command"   : "clang++ -D__MSPM0G3507__ -D__USE_SYSCONFIG__ -I\"C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang\" -I\"C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang/Debug\" -I\"D:/mspm0_sdk_2_10_00_04/source/third_party/CMSIS/Core/Include\" -I\"D:/mspm0_sdk_2_10_00_04/source\" -isystem\"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/include/armv7em-ti-none-eabihf/c++/v1\" -isystem\"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/include/c++/v1\" -isystem\"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/lib/clang/18/include\" -isystem\"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/include/c\" -xc",
+      "file"      : "C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang/ti/driverlib/dl_rtc_common.c"
+   },
+   {
+      "directory" : "C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang/Debug",
+      "command"   : "clang++ -D__MSPM0G3507__ -D__USE_SYSCONFIG__ -I\"C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang\" -I\"C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang/Debug\" -I\"D:/mspm0_sdk_2_10_00_04/source/third_party/CMSIS/Core/Include\" -I\"D:/mspm0_sdk_2_10_00_04/source\" -isystem\"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/include/armv7em-ti-none-eabihf/c++/v1\" -isystem\"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/include/c++/v1\" -isystem\"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/lib/clang/18/include\" -isystem\"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/include/c\" -xc",
+      "file"      : "C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang/ti/driverlib/dl_scratchpad.c"
+   },
+   {
+      "directory" : "C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang/Debug",
+      "command"   : "clang++ -D__MSPM0G3507__ -D__USE_SYSCONFIG__ -I\"C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang\" -I\"C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang/Debug\" -I\"D:/mspm0_sdk_2_10_00_04/source/third_party/CMSIS/Core/Include\" -I\"D:/mspm0_sdk_2_10_00_04/source\" -isystem\"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/include/armv7em-ti-none-eabihf/c++/v1\" -isystem\"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/include/c++/v1\" -isystem\"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/lib/clang/18/include\" -isystem\"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/include/c\" -xc",
+      "file"      : "C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang/ti/driverlib/dl_spgss.c"
+   },
+   {
+      "directory" : "C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang/Debug",
+      "command"   : "clang++ -D__MSPM0G3507__ -D__USE_SYSCONFIG__ -I\"C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang\" -I\"C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang/Debug\" -I\"D:/mspm0_sdk_2_10_00_04/source/third_party/CMSIS/Core/Include\" -I\"D:/mspm0_sdk_2_10_00_04/source\" -isystem\"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/include/armv7em-ti-none-eabihf/c++/v1\" -isystem\"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/include/c++/v1\" -isystem\"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/lib/clang/18/include\" -isystem\"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/include/c\" -xc",
+      "file"      : "C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang/ti/driverlib/dl_spi.c"
+   },
+   {
+      "directory" : "C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang/Debug",
+      "command"   : "clang++ -D__MSPM0G3507__ -D__USE_SYSCONFIG__ -I\"C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang\" -I\"C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang/Debug\" -I\"D:/mspm0_sdk_2_10_00_04/source/third_party/CMSIS/Core/Include\" -I\"D:/mspm0_sdk_2_10_00_04/source\" -isystem\"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/include/armv7em-ti-none-eabihf/c++/v1\" -isystem\"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/include/c++/v1\" -isystem\"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/lib/clang/18/include\" -isystem\"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/include/c\" -xc",
+      "file"      : "C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang/ti/driverlib/dl_tamperio.c"
+   },
+   {
+      "directory" : "C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang/Debug",
+      "command"   : "clang++ -D__MSPM0G3507__ -D__USE_SYSCONFIG__ -I\"C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang\" -I\"C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang/Debug\" -I\"D:/mspm0_sdk_2_10_00_04/source/third_party/CMSIS/Core/Include\" -I\"D:/mspm0_sdk_2_10_00_04/source\" -isystem\"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/include/armv7em-ti-none-eabihf/c++/v1\" -isystem\"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/include/c++/v1\" -isystem\"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/lib/clang/18/include\" -isystem\"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/include/c\" -xc",
+      "file"      : "C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang/ti/driverlib/dl_timer.c"
+   },
+   {
+      "directory" : "C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang/Debug",
+      "command"   : "clang++ -D__MSPM0G3507__ -D__USE_SYSCONFIG__ -I\"C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang\" -I\"C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang/Debug\" -I\"D:/mspm0_sdk_2_10_00_04/source/third_party/CMSIS/Core/Include\" -I\"D:/mspm0_sdk_2_10_00_04/source\" -isystem\"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/include/armv7em-ti-none-eabihf/c++/v1\" -isystem\"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/include/c++/v1\" -isystem\"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/lib/clang/18/include\" -isystem\"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/include/c\" -xc",
+      "file"      : "C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang/ti/driverlib/dl_timera.c"
+   },
+   {
+      "directory" : "C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang/Debug",
+      "command"   : "clang++ -D__MSPM0G3507__ -D__USE_SYSCONFIG__ -I\"C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang\" -I\"C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang/Debug\" -I\"D:/mspm0_sdk_2_10_00_04/source/third_party/CMSIS/Core/Include\" -I\"D:/mspm0_sdk_2_10_00_04/source\" -isystem\"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/include/armv7em-ti-none-eabihf/c++/v1\" -isystem\"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/include/c++/v1\" -isystem\"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/lib/clang/18/include\" -isystem\"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/include/c\" -xc",
+      "file"      : "C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang/ti/driverlib/dl_timerb.c"
+   },
+   {
+      "directory" : "C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang/Debug",
+      "command"   : "clang++ -D__MSPM0G3507__ -D__USE_SYSCONFIG__ -I\"C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang\" -I\"C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang/Debug\" -I\"D:/mspm0_sdk_2_10_00_04/source/third_party/CMSIS/Core/Include\" -I\"D:/mspm0_sdk_2_10_00_04/source\" -isystem\"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/include/armv7em-ti-none-eabihf/c++/v1\" -isystem\"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/include/c++/v1\" -isystem\"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/lib/clang/18/include\" -isystem\"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/include/c\" -xc",
+      "file"      : "C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang/ti/driverlib/dl_timerg.c"
+   },
+   {
+      "directory" : "C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang/Debug",
+      "command"   : "clang++ -D__MSPM0G3507__ -D__USE_SYSCONFIG__ -I\"C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang\" -I\"C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang/Debug\" -I\"D:/mspm0_sdk_2_10_00_04/source/third_party/CMSIS/Core/Include\" -I\"D:/mspm0_sdk_2_10_00_04/source\" -isystem\"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/include/armv7em-ti-none-eabihf/c++/v1\" -isystem\"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/include/c++/v1\" -isystem\"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/lib/clang/18/include\" -isystem\"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/include/c\" -xc",
+      "file"      : "C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang/ti/driverlib/dl_trng.c"
+   },
+   {
+      "directory" : "C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang/Debug",
+      "command"   : "clang++ -D__MSPM0G3507__ -D__USE_SYSCONFIG__ -I\"C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang\" -I\"C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang/Debug\" -I\"D:/mspm0_sdk_2_10_00_04/source/third_party/CMSIS/Core/Include\" -I\"D:/mspm0_sdk_2_10_00_04/source\" -isystem\"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/include/armv7em-ti-none-eabihf/c++/v1\" -isystem\"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/include/c++/v1\" -isystem\"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/lib/clang/18/include\" -isystem\"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/include/c\" -xc",
+      "file"      : "C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang/ti/driverlib/dl_uart.c"
+   },
+   {
+      "directory" : "C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang/Debug",
+      "command"   : "clang++ -D__MSPM0G3507__ -D__USE_SYSCONFIG__ -I\"C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang\" -I\"C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang/Debug\" -I\"D:/mspm0_sdk_2_10_00_04/source/third_party/CMSIS/Core/Include\" -I\"D:/mspm0_sdk_2_10_00_04/source\" -isystem\"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/include/armv7em-ti-none-eabihf/c++/v1\" -isystem\"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/include/c++/v1\" -isystem\"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/lib/clang/18/include\" -isystem\"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/include/c\" -xc",
+      "file"      : "C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang/ti/driverlib/dl_unicomm.c"
+   },
+   {
+      "directory" : "C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang/Debug",
+      "command"   : "clang++ -D__MSPM0G3507__ -D__USE_SYSCONFIG__ -I\"C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang\" -I\"C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang/Debug\" -I\"D:/mspm0_sdk_2_10_00_04/source/third_party/CMSIS/Core/Include\" -I\"D:/mspm0_sdk_2_10_00_04/source\" -isystem\"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/include/armv7em-ti-none-eabihf/c++/v1\" -isystem\"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/include/c++/v1\" -isystem\"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/lib/clang/18/include\" -isystem\"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/include/c\" -xc",
+      "file"      : "C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang/ti/driverlib/dl_unicommi2cc.c"
+   },
+   {
+      "directory" : "C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang/Debug",
+      "command"   : "clang++ -D__MSPM0G3507__ -D__USE_SYSCONFIG__ -I\"C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang\" -I\"C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang/Debug\" -I\"D:/mspm0_sdk_2_10_00_04/source/third_party/CMSIS/Core/Include\" -I\"D:/mspm0_sdk_2_10_00_04/source\" -isystem\"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/include/armv7em-ti-none-eabihf/c++/v1\" -isystem\"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/include/c++/v1\" -isystem\"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/lib/clang/18/include\" -isystem\"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/include/c\" -xc",
+      "file"      : "C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang/ti/driverlib/dl_unicommi2ct.c"
+   },
+   {
+      "directory" : "C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang/Debug",
+      "command"   : "clang++ -D__MSPM0G3507__ -D__USE_SYSCONFIG__ -I\"C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang\" -I\"C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang/Debug\" -I\"D:/mspm0_sdk_2_10_00_04/source/third_party/CMSIS/Core/Include\" -I\"D:/mspm0_sdk_2_10_00_04/source\" -isystem\"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/include/armv7em-ti-none-eabihf/c++/v1\" -isystem\"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/include/c++/v1\" -isystem\"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/lib/clang/18/include\" -isystem\"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/include/c\" -xc",
+      "file"      : "C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang/ti/driverlib/dl_unicommspi.c"
+   },
+   {
+      "directory" : "C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang/Debug",
+      "command"   : "clang++ -D__MSPM0G3507__ -D__USE_SYSCONFIG__ -I\"C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang\" -I\"C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang/Debug\" -I\"D:/mspm0_sdk_2_10_00_04/source/third_party/CMSIS/Core/Include\" -I\"D:/mspm0_sdk_2_10_00_04/source\" -isystem\"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/include/armv7em-ti-none-eabihf/c++/v1\" -isystem\"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/include/c++/v1\" -isystem\"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/lib/clang/18/include\" -isystem\"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/include/c\" -xc",
+      "file"      : "C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang/ti/driverlib/dl_unicommuart.c"
+   },
+   {
+      "directory" : "C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang/Debug",
+      "command"   : "clang++ -D__MSPM0G3507__ -D__USE_SYSCONFIG__ -I\"C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang\" -I\"C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang/Debug\" -I\"D:/mspm0_sdk_2_10_00_04/source/third_party/CMSIS/Core/Include\" -I\"D:/mspm0_sdk_2_10_00_04/source\" -isystem\"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/include/armv7em-ti-none-eabihf/c++/v1\" -isystem\"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/include/c++/v1\" -isystem\"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/lib/clang/18/include\" -isystem\"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/include/c\" -xc",
+      "file"      : "C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang/ti/driverlib/dl_vref.c"
+   },
+   {
+      "directory" : "C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang/Debug",
+      "command"   : "clang++ -D__MSPM0G3507__ -D__USE_SYSCONFIG__ -I\"C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang\" -I\"C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang/Debug\" -I\"D:/mspm0_sdk_2_10_00_04/source/third_party/CMSIS/Core/Include\" -I\"D:/mspm0_sdk_2_10_00_04/source\" -isystem\"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/include/armv7em-ti-none-eabihf/c++/v1\" -isystem\"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/include/c++/v1\" -isystem\"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/lib/clang/18/include\" -isystem\"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/include/c\" -xc",
+      "file"      : "C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang/ti/driverlib/dl_wwdt.c"
+   },
+   {
+      "directory" : "C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang/Debug",
+      "command"   : "clang++ -D__MSPM0G3507__ -D__USE_SYSCONFIG__ -I\"C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang\" -I\"C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang/Debug\" -I\"D:/mspm0_sdk_2_10_00_04/source/third_party/CMSIS/Core/Include\" -I\"D:/mspm0_sdk_2_10_00_04/source\" -isystem\"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/include/armv7em-ti-none-eabihf/c++/v1\" -isystem\"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/include/c++/v1\" -isystem\"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/lib/clang/18/include\" -isystem\"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/include/c\" -xc",
+      "file"      : "C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang/ti/driverlib/m0p/dl_factoryregion.c"
+   },
+   {
+      "directory" : "C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang/Debug",
+      "command"   : "clang++ -D__MSPM0G3507__ -D__USE_SYSCONFIG__ -I\"C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang\" -I\"C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang/Debug\" -I\"D:/mspm0_sdk_2_10_00_04/source/third_party/CMSIS/Core/Include\" -I\"D:/mspm0_sdk_2_10_00_04/source\" -isystem\"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/include/armv7em-ti-none-eabihf/c++/v1\" -isystem\"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/include/c++/v1\" -isystem\"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/lib/clang/18/include\" -isystem\"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/include/c\" -xc",
+      "file"      : "C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang/ti/driverlib/m0p/dl_interrupt.c"
+   },
+   {
+      "directory" : "C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang/Debug",
+      "command"   : "clang++ -D__MSPM0G3507__ -D__USE_SYSCONFIG__ -I\"C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang\" -I\"C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang/Debug\" -I\"D:/mspm0_sdk_2_10_00_04/source/third_party/CMSIS/Core/Include\" -I\"D:/mspm0_sdk_2_10_00_04/source\" -isystem\"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/include/armv7em-ti-none-eabihf/c++/v1\" -isystem\"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/include/c++/v1\" -isystem\"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/lib/clang/18/include\" -isystem\"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/include/c\" -xc",
+      "file"      : "C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang/ti/driverlib/m0p/sysctl/dl_sysctl_mspm0c1105_c1106.c"
+   },
+   {
+      "directory" : "C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang/Debug",
+      "command"   : "clang++ -D__MSPM0G3507__ -D__USE_SYSCONFIG__ -I\"C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang\" -I\"C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang/Debug\" -I\"D:/mspm0_sdk_2_10_00_04/source/third_party/CMSIS/Core/Include\" -I\"D:/mspm0_sdk_2_10_00_04/source\" -isystem\"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/include/armv7em-ti-none-eabihf/c++/v1\" -isystem\"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/include/c++/v1\" -isystem\"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/lib/clang/18/include\" -isystem\"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/include/c\" -xc",
+      "file"      : "C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang/ti/driverlib/m0p/sysctl/dl_sysctl_mspm0c110x.c"
+   },
+   {
+      "directory" : "C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang/Debug",
+      "command"   : "clang++ -D__MSPM0G3507__ -D__USE_SYSCONFIG__ -I\"C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang\" -I\"C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang/Debug\" -I\"D:/mspm0_sdk_2_10_00_04/source/third_party/CMSIS/Core/Include\" -I\"D:/mspm0_sdk_2_10_00_04/source\" -isystem\"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/include/armv7em-ti-none-eabihf/c++/v1\" -isystem\"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/include/c++/v1\" -isystem\"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/lib/clang/18/include\" -isystem\"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/include/c\" -xc",
+      "file"      : "C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang/ti/driverlib/m0p/sysctl/dl_sysctl_mspm0g1x0x_g3x0x.c"
+   },
+   {
+      "directory" : "C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang/Debug",
+      "command"   : "clang++ -D__MSPM0G3507__ -D__USE_SYSCONFIG__ -I\"C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang\" -I\"C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang/Debug\" -I\"D:/mspm0_sdk_2_10_00_04/source/third_party/CMSIS/Core/Include\" -I\"D:/mspm0_sdk_2_10_00_04/source\" -isystem\"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/include/armv7em-ti-none-eabihf/c++/v1\" -isystem\"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/include/c++/v1\" -isystem\"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/lib/clang/18/include\" -isystem\"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/include/c\" -xc",
+      "file"      : "C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang/ti/driverlib/m0p/sysctl/dl_sysctl_mspm0g352x.c"
+   },
+   {
+      "directory" : "C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang/Debug",
+      "command"   : "clang++ -D__MSPM0G3507__ -D__USE_SYSCONFIG__ -I\"C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang\" -I\"C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang/Debug\" -I\"D:/mspm0_sdk_2_10_00_04/source/third_party/CMSIS/Core/Include\" -I\"D:/mspm0_sdk_2_10_00_04/source\" -isystem\"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/include/armv7em-ti-none-eabihf/c++/v1\" -isystem\"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/include/c++/v1\" -isystem\"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/lib/clang/18/include\" -isystem\"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/include/c\" -xc",
+      "file"      : "C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang/ti/driverlib/m0p/sysctl/dl_sysctl_mspm0g511x.c"
+   },
+   {
+      "directory" : "C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang/Debug",
+      "command"   : "clang++ -D__MSPM0G3507__ -D__USE_SYSCONFIG__ -I\"C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang\" -I\"C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang/Debug\" -I\"D:/mspm0_sdk_2_10_00_04/source/third_party/CMSIS/Core/Include\" -I\"D:/mspm0_sdk_2_10_00_04/source\" -isystem\"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/include/armv7em-ti-none-eabihf/c++/v1\" -isystem\"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/include/c++/v1\" -isystem\"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/lib/clang/18/include\" -isystem\"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/include/c\" -xc",
+      "file"      : "C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang/ti/driverlib/m0p/sysctl/dl_sysctl_mspm0g518x.c"
+   },
+   {
+      "directory" : "C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang/Debug",
+      "command"   : "clang++ -D__MSPM0G3507__ -D__USE_SYSCONFIG__ -I\"C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang\" -I\"C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang/Debug\" -I\"D:/mspm0_sdk_2_10_00_04/source/third_party/CMSIS/Core/Include\" -I\"D:/mspm0_sdk_2_10_00_04/source\" -isystem\"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/include/armv7em-ti-none-eabihf/c++/v1\" -isystem\"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/include/c++/v1\" -isystem\"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/lib/clang/18/include\" -isystem\"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/include/c\" -xc",
+      "file"      : "C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang/ti/driverlib/m0p/sysctl/dl_sysctl_mspm0gx218_gx207.c"
+   },
+   {
+      "directory" : "C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang/Debug",
+      "command"   : "clang++ -D__MSPM0G3507__ -D__USE_SYSCONFIG__ -I\"C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang\" -I\"C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang/Debug\" -I\"D:/mspm0_sdk_2_10_00_04/source/third_party/CMSIS/Core/Include\" -I\"D:/mspm0_sdk_2_10_00_04/source\" -isystem\"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/include/armv7em-ti-none-eabihf/c++/v1\" -isystem\"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/include/c++/v1\" -isystem\"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/lib/clang/18/include\" -isystem\"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/include/c\" -xc",
+      "file"      : "C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang/ti/driverlib/m0p/sysctl/dl_sysctl_mspm0gx51x.c"
+   },
+   {
+      "directory" : "C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang/Debug",
+      "command"   : "clang++ -D__MSPM0G3507__ -D__USE_SYSCONFIG__ -I\"C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang\" -I\"C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang/Debug\" -I\"D:/mspm0_sdk_2_10_00_04/source/third_party/CMSIS/Core/Include\" -I\"D:/mspm0_sdk_2_10_00_04/source\" -isystem\"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/include/armv7em-ti-none-eabihf/c++/v1\" -isystem\"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/include/c++/v1\" -isystem\"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/lib/clang/18/include\" -isystem\"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/include/c\" -xc",
+      "file"      : "C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang/ti/driverlib/m0p/sysctl/dl_sysctl_mspm0h321x.c"
+   },
+   {
+      "directory" : "C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang/Debug",
+      "command"   : "clang++ -D__MSPM0G3507__ -D__USE_SYSCONFIG__ -I\"C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang\" -I\"C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang/Debug\" -I\"D:/mspm0_sdk_2_10_00_04/source/third_party/CMSIS/Core/Include\" -I\"D:/mspm0_sdk_2_10_00_04/source\" -isystem\"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/include/armv7em-ti-none-eabihf/c++/v1\" -isystem\"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/include/c++/v1\" -isystem\"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/lib/clang/18/include\" -isystem\"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/include/c\" -xc",
+      "file"      : "C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang/ti/driverlib/m0p/sysctl/dl_sysctl_mspm0l111x.c"
+   },
+   {
+      "directory" : "C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang/Debug",
+      "command"   : "clang++ -D__MSPM0G3507__ -D__USE_SYSCONFIG__ -I\"C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang\" -I\"C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang/Debug\" -I\"D:/mspm0_sdk_2_10_00_04/source/third_party/CMSIS/Core/Include\" -I\"D:/mspm0_sdk_2_10_00_04/source\" -isystem\"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/include/armv7em-ti-none-eabihf/c++/v1\" -isystem\"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/include/c++/v1\" -isystem\"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/lib/clang/18/include\" -isystem\"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/include/c\" -xc",
+      "file"      : "C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang/ti/driverlib/m0p/sysctl/dl_sysctl_mspm0l11xx_l13xx.c"
+   },
+   {
+      "directory" : "C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang/Debug",
+      "command"   : "clang++ -D__MSPM0G3507__ -D__USE_SYSCONFIG__ -I\"C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang\" -I\"C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang/Debug\" -I\"D:/mspm0_sdk_2_10_00_04/source/third_party/CMSIS/Core/Include\" -I\"D:/mspm0_sdk_2_10_00_04/source\" -isystem\"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/include/armv7em-ti-none-eabihf/c++/v1\" -isystem\"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/include/c++/v1\" -isystem\"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/lib/clang/18/include\" -isystem\"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/include/c\" -xc",
+      "file"      : "C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang/ti/driverlib/m0p/sysctl/dl_sysctl_mspm0l122x_l222x.c"
+   },
+   {
+      "directory" : "C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang/Debug",
+      "command"   : "clang++ -D__MSPM0G3507__ -D__USE_SYSCONFIG__ -I\"C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang\" -I\"C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang/Debug\" -I\"D:/mspm0_sdk_2_10_00_04/source/third_party/CMSIS/Core/Include\" -I\"D:/mspm0_sdk_2_10_00_04/source\" -isystem\"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/include/armv7em-ti-none-eabihf/c++/v1\" -isystem\"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/include/c++/v1\" -isystem\"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/lib/clang/18/include\" -isystem\"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/include/c\" -xc",
+      "file"      : "C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang/ti/driverlib/m0p/sysctl/dl_sysctl_mspm0l211x_l112x.c"
+   },
+   {
+      "directory" : "C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang/Debug",
+      "command"   : "clang++ -D__MSPM0G3507__ -D__USE_SYSCONFIG__ -I\"C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang\" -I\"C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang/Debug\" -I\"D:/mspm0_sdk_2_10_00_04/source/third_party/CMSIS/Core/Include\" -I\"D:/mspm0_sdk_2_10_00_04/source\" -isystem\"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/include/armv7em-ti-none-eabihf/c++/v1\" -isystem\"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/include/c++/v1\" -isystem\"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/lib/clang/18/include\" -isystem\"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/include/c\" -xc",
+      "file"      : "C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang/PID.c"
+   },
+   {
+      "directory" : "C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang/Debug",
+      "command"   : "clang++ -D__MSPM0G3507__ -D__USE_SYSCONFIG__ -I\"C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang\" -I\"C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang/Debug\" -I\"D:/mspm0_sdk_2_10_00_04/source/third_party/CMSIS/Core/Include\" -I\"D:/mspm0_sdk_2_10_00_04/source\" -isystem\"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/include/armv7em-ti-none-eabihf/c++/v1\" -isystem\"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/include/c++/v1\" -isystem\"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/lib/clang/18/include\" -isystem\"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/include/c\" -xc",
+      "file"      : "C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang/motor.c"
+   },
+   {
+      "directory" : "C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang/Debug",
+      "command"   : "clang++ -D__MSPM0G3507__ -D__USE_SYSCONFIG__ -I\"C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang\" -I\"C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang/Debug\" -I\"D:/mspm0_sdk_2_10_00_04/source/third_party/CMSIS/Core/Include\" -I\"D:/mspm0_sdk_2_10_00_04/source\" -isystem\"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/include/armv7em-ti-none-eabihf/c++/v1\" -isystem\"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/include/c++/v1\" -isystem\"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/lib/clang/18/include\" -isystem\"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/include/c\" -xc",
+      "file"      : "C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang/encoder.c"
+   },
+   {
+      "directory" : "C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang/Debug",
+      "command"   : "clang++ -D__MSPM0G3507__ -D__USE_SYSCONFIG__ -I\"C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang\" -I\"C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang/Debug\" -I\"D:/mspm0_sdk_2_10_00_04/source/third_party/CMSIS/Core/Include\" -I\"D:/mspm0_sdk_2_10_00_04/source\" -isystem\"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/include/armv7em-ti-none-eabihf/c++/v1\" -isystem\"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/include/c++/v1\" -isystem\"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/lib/clang/18/include\" -isystem\"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/include/c\" -xc",
+      "file"      : "C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang/iic.c"
+   },
+   {
+      "directory" : "C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang/Debug",
+      "command"   : "clang++ -D__MSPM0G3507__ -D__USE_SYSCONFIG__ -I\"C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang\" -I\"C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang/Debug\" -I\"D:/mspm0_sdk_2_10_00_04/source/third_party/CMSIS/Core/Include\" -I\"D:/mspm0_sdk_2_10_00_04/source\" -isystem\"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/include/armv7em-ti-none-eabihf/c++/v1\" -isystem\"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/include/c++/v1\" -isystem\"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/lib/clang/18/include\" -isystem\"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/include/c\" -xc",
+      "file"      : "C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang/mpu6050.c"
+   },
+   {
+      "directory" : "C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang/Debug",
+      "command"   : "clang++ -D__MSPM0G3507__ -D__USE_SYSCONFIG__ -I\"C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang\" -I\"C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang/Debug\" -I\"D:/mspm0_sdk_2_10_00_04/source/third_party/CMSIS/Core/Include\" -I\"D:/mspm0_sdk_2_10_00_04/source\" -isystem\"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/include/armv7em-ti-none-eabihf/c++/v1\" -isystem\"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/include/c++/v1\" -isystem\"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/lib/clang/18/include\" -isystem\"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/include/c\" -xc",
+      "file"      : "C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang/sensor.c"
+   },
+   {
+      "directory" : "C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang/Debug",
+      "command"   : "clang++ -D__MSPM0G3507__ -D__USE_SYSCONFIG__ -I\"C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang\" -I\"C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang/Debug\" -I\"D:/mspm0_sdk_2_10_00_04/source/third_party/CMSIS/Core/Include\" -I\"D:/mspm0_sdk_2_10_00_04/source\" -isystem\"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/include/armv7em-ti-none-eabihf/c++/v1\" -isystem\"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/include/c++/v1\" -isystem\"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/lib/clang/18/include\" -isystem\"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/include/c\" -xc",
+      "file"      : "C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang/alert.c"
+   },
+   {
+      "directory" : "C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang/Debug",
+      "command"   : "clang++ -D__MSPM0G3507__ -D__USE_SYSCONFIG__ -I\"C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang\" -I\"C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang/Debug\" -I\"D:/mspm0_sdk_2_10_00_04/source/third_party/CMSIS/Core/Include\" -I\"D:/mspm0_sdk_2_10_00_04/source\" -isystem\"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/include/armv7em-ti-none-eabihf/c++/v1\" -isystem\"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/include/c++/v1\" -isystem\"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/lib/clang/18/include\" -isystem\"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/include/c\" -xc",
+      "file"      : "C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang/blue_serial.c"
+   },
+   {
+      "directory" : "C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang/Debug",
+      "command"   : "clang++ -D__MSPM0G3507__ -D__USE_SYSCONFIG__ -I\"C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang\" -I\"C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang/Debug\" -I\"D:/mspm0_sdk_2_10_00_04/source/third_party/CMSIS/Core/Include\" -I\"D:/mspm0_sdk_2_10_00_04/source\" -isystem\"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/include/armv7em-ti-none-eabihf/c++/v1\" -isystem\"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/include/c++/v1\" -isystem\"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/lib/clang/18/include\" -isystem\"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/include/c\" -xc",
+      "file"      : "C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang/task2.c"
+   },
+   {
+      "directory" : "C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang/Debug",
+      "command"   : "clang++ -D__MSPM0G3507__ -D__USE_SYSCONFIG__ -I\"C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang\" -I\"C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang/Debug\" -I\"D:/mspm0_sdk_2_10_00_04/source/third_party/CMSIS/Core/Include\" -I\"D:/mspm0_sdk_2_10_00_04/source\" -isystem\"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/include/armv7em-ti-none-eabihf/c++/v1\" -isystem\"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/include/c++/v1\" -isystem\"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/lib/clang/18/include\" -isystem\"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/include/c\" -xc",
+      "file"      : "C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang/task3.c"
+   },
+   {
+      "directory" : "C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang/Debug",
+      "command"   : "clang++ -D__MSPM0G3507__ -D__USE_SYSCONFIG__ -I\"C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang\" -I\"C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang/Debug\" -I\"D:/mspm0_sdk_2_10_00_04/source/third_party/CMSIS/Core/Include\" -I\"D:/mspm0_sdk_2_10_00_04/source\" -isystem\"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/include/armv7em-ti-none-eabihf/c++/v1\" -isystem\"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/include/c++/v1\" -isystem\"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/lib/clang/18/include\" -isystem\"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/include/c\" -xc",
+      "file"      : "C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang/task4.c"
+   },
+   {
+      "directory" : "C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang/Debug",
+      "command"   : "clang++ -D__MSPM0G3507__ -D__USE_SYSCONFIG__ -I\"C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang\" -I\"C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang/Debug\" -I\"D:/mspm0_sdk_2_10_00_04/source/third_party/CMSIS/Core/Include\" -I\"D:/mspm0_sdk_2_10_00_04/source\" -isystem\"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/include/armv7em-ti-none-eabihf/c++/v1\" -isystem\"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/include/c++/v1\" -isystem\"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/lib/clang/18/include\" -isystem\"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/include/c\" -xc",
+      "file"      : "C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang/tasks.c"
+   },
+   {
+      "directory" : "C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang/Debug",
+      "command"   : "clang++ -D__MSPM0G3507__ -D__USE_SYSCONFIG__ -I\"C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang\" -I\"C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang/Debug\" -I\"D:/mspm0_sdk_2_10_00_04/source/third_party/CMSIS/Core/Include\" -I\"D:/mspm0_sdk_2_10_00_04/source\" -isystem\"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/include/armv7em-ti-none-eabihf/c++/v1\" -isystem\"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/include/c++/v1\" -isystem\"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/lib/clang/18/include\" -isystem\"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/include/c\" -xc",
+      "file"      : "C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang/main.c"
+   },
+   {
+      "directory" : "C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang/Debug",
+      "command"   : "clang++ -D__MSPM0G3507__ -D__USE_SYSCONFIG__ -I\"C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang\" -I\"C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang/Debug\" -I\"D:/mspm0_sdk_2_10_00_04/source/third_party/CMSIS/Core/Include\" -I\"D:/mspm0_sdk_2_10_00_04/source\" -isystem\"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/include/armv7em-ti-none-eabihf/c++/v1\" -isystem\"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/include/c++/v1\" -isystem\"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/lib/clang/18/include\" -isystem\"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/include/c\" -xc",
+      "file"      : "C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang/Debug/ti_msp_dl_config.c"
+   }
+]

@@ -1,0 +1,497 @@
+
+**** Clean-only build of configuration 'Debug' for project 'empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang' ****
+
+"D:\\ccs\\utils\\bin\\gmake" -k -j 12 clean -r -O 
+ 
+**** Build finished ****
+
+
+**** Build of configuration 'Debug' for project 'empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang' ****
+
+"D:\\ccs\\utils\\bin\\gmake" -k -j 12 all -r -O 
+ 
+SysConfig: "../empty.syscfg"
+"D:/ccs/utils/sysconfig_1.27.1/sysconfig_cli.bat" -s "D:/mspm0_sdk_2_10_00_04/.metadata/product.json" --script "C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang/empty.syscfg" -o "." --compiler ticlang
+Running script...
+Validating...
+warning: /ti/project_config/ProjectConfig genLibDL: Driverlib inclusion is required for most use cases. Disable with caution.
+info: PWM_0(/ti/driverlib/PWM): Peripheral does not retain register contents in STOP or STANDBY modes. User should take care to save and restore register configuration in application. See Retention Configuration section for more details.
+info: QEI_0(/ti/driverlib/QEI): Peripheral does not retain register contents in STOP or STANDBY modes. User should take care to save and restore register configuration in application. See Retention Configuration section for more details.
+info: TIMER_0(/ti/driverlib/TIMER): Peripheral does not retain register contents in STOP or STANDBY modes. User should take care to save and restore register configuration in application. See Retention Configuration section for more details.
+0 error(s), 1 warning(s)
+Generating Code (empty.syscfg)...
+Writing C:\Users\Admin\workspace_ccstheia\empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang\Debug\device_linker.cmd...
+Writing C:\Users\Admin\workspace_ccstheia\empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang\Debug\device.opt...
+Writing C:\Users\Admin\workspace_ccstheia\empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang\Debug\device.cmd.genlibs...
+Writing C:\Users\Admin\workspace_ccstheia\empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang\Debug\ti_msp_dl_config.c...
+Writing C:\Users\Admin\workspace_ccstheia\empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang\Debug\ti_msp_dl_config.h...
+Writing C:\Users\Admin\workspace_ccstheia\empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang\Debug\Event.dot...
+ 
+Arm Compiler: "D:/mspm0_sdk_2_10_00_04/source/ti/devices/msp/m0p/startup_system_files/ticlang/startup_mspm0g350x_ticlang.c"
+"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/bin/tiarmclang.exe" -c @"device.opt"  -march=thumbv6m -mcpu=cortex-m0plus -mfloat-abi=soft -mlittle-endian -mthumb -O2 -I"C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang" -I"C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang/Debug" -I"D:/mspm0_sdk_2_10_00_04/source/third_party/CMSIS/Core/Include" -I"D:/mspm0_sdk_2_10_00_04/source" -gdwarf-3 -Wall -MMD -MP -MF"startup_mspm0g350x_ticlang.d_raw" -MT"startup_mspm0g350x_ticlang.o"  @"./device.opt"  -o"startup_mspm0g350x_ticlang.o" "D:/mspm0_sdk_2_10_00_04/source/ti/devices/msp/m0p/startup_system_files/ticlang/startup_mspm0g350x_ticlang.c"
+ 
+Arm Compiler: "../alert.c"
+"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/bin/tiarmclang.exe" -c @"device.opt"  -march=thumbv6m -mcpu=cortex-m0plus -mfloat-abi=soft -mlittle-endian -mthumb -O2 -I"C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang" -I"C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang/Debug" -I"D:/mspm0_sdk_2_10_00_04/source/third_party/CMSIS/Core/Include" -I"D:/mspm0_sdk_2_10_00_04/source" -gdwarf-3 -Wall -MMD -MP -MF"alert.d_raw" -MT"alert.o"  @"./device.opt"  -o"alert.o" "../alert.c"
+In file included from ../alert.c:1:
+In file included from ..\alert.h:4:
+..\main.h:10:9: warning: 'CPUCLK_FREQ' macro redefined [-Wmacro-redefined]
+   10 | #define CPUCLK_FREQ          32000000U
+      |         ^
+C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang/Debug\ti_msp_dl_config.h:76:9: note: previous definition is here
+   76 | #define CPUCLK_FREQ                                                     32000000
+      |         ^
+1 warning generated.
+ 
+Arm Compiler: "../PID.c"
+"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/bin/tiarmclang.exe" -c @"device.opt"  -march=thumbv6m -mcpu=cortex-m0plus -mfloat-abi=soft -mlittle-endian -mthumb -O2 -I"C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang" -I"C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang/Debug" -I"D:/mspm0_sdk_2_10_00_04/source/third_party/CMSIS/Core/Include" -I"D:/mspm0_sdk_2_10_00_04/source" -gdwarf-3 -Wall -MMD -MP -MF"PID.d_raw" -MT"PID.o"  @"./device.opt"  -o"PID.o" "../PID.c"
+In file included from ../PID.c:1:
+In file included from ..\PID.h:4:
+..\main.h:10:9: warning: 'CPUCLK_FREQ' macro redefined [-Wmacro-redefined]
+   10 | #define CPUCLK_FREQ          32000000U
+      |         ^
+C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang/Debug\ti_msp_dl_config.h:76:9: note: previous definition is here
+   76 | #define CPUCLK_FREQ                                                     32000000
+      |         ^
+1 warning generated.
+ 
+Arm Compiler: "ti_msp_dl_config.c"
+"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/bin/tiarmclang.exe" -c @"device.opt"  -march=thumbv6m -mcpu=cortex-m0plus -mfloat-abi=soft -mlittle-endian -mthumb -O2 -I"C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang" -I"C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang/Debug" -I"D:/mspm0_sdk_2_10_00_04/source/third_party/CMSIS/Core/Include" -I"D:/mspm0_sdk_2_10_00_04/source" -gdwarf-3 -Wall -MMD -MP -MF"ti_msp_dl_config.d_raw" -MT"ti_msp_dl_config.o"  @"./device.opt"  -o"ti_msp_dl_config.o" "ti_msp_dl_config.c"
+ 
+Arm Compiler: "../blue_serial.c"
+"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/bin/tiarmclang.exe" -c @"device.opt"  -march=thumbv6m -mcpu=cortex-m0plus -mfloat-abi=soft -mlittle-endian -mthumb -O2 -I"C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang" -I"C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang/Debug" -I"D:/mspm0_sdk_2_10_00_04/source/third_party/CMSIS/Core/Include" -I"D:/mspm0_sdk_2_10_00_04/source" -gdwarf-3 -Wall -MMD -MP -MF"blue_serial.d_raw" -MT"blue_serial.o"  @"./device.opt"  -o"blue_serial.o" "../blue_serial.c"
+In file included from ../blue_serial.c:1:
+In file included from ..\blue_serial.h:4:
+..\main.h:10:9: warning: 'CPUCLK_FREQ' macro redefined [-Wmacro-redefined]
+   10 | #define CPUCLK_FREQ          32000000U
+      |         ^
+C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang/Debug\ti_msp_dl_config.h:76:9: note: previous definition is here
+   76 | #define CPUCLK_FREQ                                                     32000000
+      |         ^
+../blue_serial.c:101:47: error: use of undeclared identifier 'DL_UART_MAIN_INTERRUPT_RX_DONE'
+  101 |     DL_UART_Main_enableInterrupt(UART_1_INST, DL_UART_MAIN_INTERRUPT_RX_DONE);
+      |                                               ^
+../blue_serial.c:108:62: error: use of undeclared identifier 'DL_UART_MAIN_INTERRUPT_TX_EMPTY'
+  108 |     while (!(DL_UART_Main_getRawInterruptStatus(UART_1_INST, DL_UART_MAIN_INTERRUPT_TX_EMPTY)));
+      |                                                              ^
+../blue_serial.c:233:14: warning: call to undeclared function 'DL_UART_Main_getInterruptStatus'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]
+  233 |     status = DL_UART_Main_getInterruptStatus(UART_1_INST);
+      |              ^
+../blue_serial.c:234:18: error: use of undeclared identifier 'DL_UART_MAIN_INTERRUPT_RX_DONE'
+  234 |     if (status & DL_UART_MAIN_INTERRUPT_RX_DONE) {
+      |                  ^
+2 warnings and 3 errors generated.
+Arm Compiler: "../iic.c"
+"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/bin/tiarmclang.exe" -c @"device.opt"  -march=thumbv6m -mcpu=cortex-m0plus -mfloat-abi=soft -mlittle-endian -mthumb -O2 -I"C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang" -I"C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang/Debug" -I"D:/mspm0_sdk_2_10_00_04/source/third_party/CMSIS/Core/Include" -I"D:/mspm0_sdk_2_10_00_04/source" -gdwarf-3 -Wall -MMD -MP -MF"iic.d_raw" -MT"iic.o"  @"./device.opt"  -o"iic.o" "../iic.c"
+In file included from ../iic.c:1:
+In file included from ..\iic.h:4:
+..\main.h:10:9: warning: 'CPUCLK_FREQ' macro redefined [-Wmacro-redefined]
+   10 | #define CPUCLK_FREQ          32000000U
+      |         ^
+C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang/Debug\ti_msp_dl_config.h:76:9: note: previous definition is here
+   76 | #define CPUCLK_FREQ                                                     32000000
+      |         ^
+../iic.c:58:9: error: too few arguments to function call, expected 2, have 1
+   58 |     if (READ_SDA) {
+      |         ^~~~~~~~
+../iic.c:9:54: note: expanded from macro 'READ_SDA'
+    9 | #define READ_SDA      ((DL_GPIO_readPins(IIC_SDA_PORT) & IIC_SDA_PIN) ? 1U : 0U)
+      |                         ~~~~~~~~~~~~~~~~             ^
+C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang\ti/driverlib/dl_gpio.h:2231:26: note: 'DL_GPIO_readPins' declared here
+ 2231 | __STATIC_INLINE uint32_t DL_GPIO_readPins(GPIO_Regs* gpio, uint32_t pins)
+      |                          ^                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../iic.c:118:13: error: too few arguments to function call, expected 2, have 1
+  118 |         if (READ_SDA) {
+      |             ^~~~~~~~
+../iic.c:9:54: note: expanded from macro 'READ_SDA'
+    9 | #define READ_SDA      ((DL_GPIO_readPins(IIC_SDA_PORT) & IIC_SDA_PIN) ? 1U : 0U)
+      |                         ~~~~~~~~~~~~~~~~             ^
+C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang\ti/driverlib/dl_gpio.h:2231:26: note: 'DL_GPIO_readPins' declared here
+ 2231 | __STATIC_INLINE uint32_t DL_GPIO_readPins(GPIO_Regs* gpio, uint32_t pins)
+      |                          ^                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1 warning and 2 errors generated.
+Arm Compiler: "../encoder.c"
+"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/bin/tiarmclang.exe" -c @"device.opt"  -march=thumbv6m -mcpu=cortex-m0plus -mfloat-abi=soft -mlittle-endian -mthumb -O2 -I"C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang" -I"C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang/Debug" -I"D:/mspm0_sdk_2_10_00_04/source/third_party/CMSIS/Core/Include" -I"D:/mspm0_sdk_2_10_00_04/source" -gdwarf-3 -Wall -MMD -MP -MF"encoder.d_raw" -MT"encoder.o"  @"./device.opt"  -o"encoder.o" "../encoder.c"
+In file included from ../encoder.c:1:
+In file included from ..\encoder.h:4:
+..\main.h:10:9: warning: 'CPUCLK_FREQ' macro redefined [-Wmacro-redefined]
+   10 | #define CPUCLK_FREQ          32000000U
+      |         ^
+C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang/Debug\ti_msp_dl_config.h:76:9: note: previous definition is here
+   76 | #define CPUCLK_FREQ                                                     32000000
+      |         ^
+../encoder.c:12:46: error: too many arguments to function call, expected single argument 'pincmIndex', have 2 arguments
+   12 |     DL_GPIO_initDigitalInput(RIGHT_ENC_PORT, RIGHT_ENC_PIN);
+      |     ~~~~~~~~~~~~~~~~~~~~~~~~                 ^~~~~~~~~~~~~
+..\main.h:28:30: note: expanded from macro 'RIGHT_ENC_PIN'
+   28 | #define RIGHT_ENC_PIN        DL_GPIO_PIN_12
+      |                              ^~~~~~~~~~~~~~
+C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang\ti/driverlib/dl_gpio.h:132:69: note: expanded from macro 'DL_GPIO_PIN_12'
+  132 | #define DL_GPIO_PIN_12                                              (0x00001000)
+      |                                                                     ^~~~~~~~~~~~
+C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang\ti/driverlib/dl_gpio.h:1985:22: note: 'DL_GPIO_initDigitalInput' declared here
+ 1985 | __STATIC_INLINE void DL_GPIO_initDigitalInput(uint32_t pincmIndex)
+      |                      ^                        ~~~~~~~~~~~~~~~~~~~
+../encoder.c:13:5: warning: call to undeclared function 'DL_GPIO_enableInput'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]
+   13 |     DL_GPIO_enableInput(RIGHT_ENC_PORT, RIGHT_ENC_PIN);
+      |     ^
+../encoder.c:17:5: warning: call to undeclared function 'DL_GPIO_setInterruptMode'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]
+   17 |     DL_GPIO_setInterruptMode(RIGHT_ENC_PORT, RIGHT_ENC_PIN, DL_GPIO_INTERRUPT_RISE_FALL);
+      |     ^
+../encoder.c:17:61: error: use of undeclared identifier 'DL_GPIO_INTERRUPT_RISE_FALL'
+   17 |     DL_GPIO_setInterruptMode(RIGHT_ENC_PORT, RIGHT_ENC_PIN, DL_GPIO_INTERRUPT_RISE_FALL);
+      |                                                             ^
+../encoder.c:45:62: error: too few arguments to function call, expected 2, have 1
+   45 |     uint32_t status = DL_GPIO_getEnabledInterruptStatus(GPIOA);
+      |                       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~      ^
+C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang\ti/driverlib/dl_gpio.h:2628:26: note: 'DL_GPIO_getEnabledInterruptStatus' declared here
+ 2628 | __STATIC_INLINE uint32_t DL_GPIO_getEnabledInterruptStatus(
+      |                          ^
+ 2629 |     GPIO_Regs* gpio, uint32_t pins)
+      |     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+3 warnings and 3 errors generated.
+Arm Compiler: "../main.c"
+"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/bin/tiarmclang.exe" -c @"device.opt"  -march=thumbv6m -mcpu=cortex-m0plus -mfloat-abi=soft -mlittle-endian -mthumb -O2 -I"C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang" -I"C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang/Debug" -I"D:/mspm0_sdk_2_10_00_04/source/third_party/CMSIS/Core/Include" -I"D:/mspm0_sdk_2_10_00_04/source" -gdwarf-3 -Wall -MMD -MP -MF"main.d_raw" -MT"main.o"  @"./device.opt"  -o"main.o" "../main.c"
+In file included from ../main.c:1:
+..\main.h:10:9: warning: 'CPUCLK_FREQ' macro redefined [-Wmacro-redefined]
+   10 | #define CPUCLK_FREQ          32000000U
+      |         ^
+C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang/Debug\ti_msp_dl_config.h:76:9: note: previous definition is here
+   76 | #define CPUCLK_FREQ                                                     32000000
+      |         ^
+../main.c:41:12: error: use of undeclared identifier 'DL_UART_MAIN_INTERRUPT_TX_EMPTY'
+   41 |            DL_UART_MAIN_INTERRUPT_TX_EMPTY))) { }
+      |            ^
+1 warning and 1 error generated.
+Arm Compiler: "../sensor.c"
+"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/bin/tiarmclang.exe" -c @"device.opt"  -march=thumbv6m -mcpu=cortex-m0plus -mfloat-abi=soft -mlittle-endian -mthumb -O2 -I"C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang" -I"C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang/Debug" -I"D:/mspm0_sdk_2_10_00_04/source/third_party/CMSIS/Core/Include" -I"D:/mspm0_sdk_2_10_00_04/source" -gdwarf-3 -Wall -MMD -MP -MF"sensor.d_raw" -MT"sensor.o"  @"./device.opt"  -o"sensor.o" "../sensor.c"
+In file included from ../sensor.c:1:
+In file included from ..\sensor.h:4:
+..\main.h:10:9: warning: 'CPUCLK_FREQ' macro redefined [-Wmacro-redefined]
+   10 | #define CPUCLK_FREQ          32000000U
+      |         ^
+C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang/Debug\ti_msp_dl_config.h:76:9: note: previous definition is here
+   76 | #define CPUCLK_FREQ                                                     32000000
+      |         ^
+../sensor.c:23:9: error: too few arguments to function call, expected 2, have 1
+   23 |     if (GPIO_READ(LS1_PORT, LS1_PIN)) { sensor_high_level_count++; } else { sensor_bits += 128U; sensor_err += 999; }
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+..\main.h:67:59: note: expanded from macro 'GPIO_READ'
+   67 | #define GPIO_READ(port, pin)      (((DL_GPIO_readPins(port) & (pin)) != 0) ? 1U : 0U)
+      |                                      ~~~~~~~~~~~~~~~~     ^
+C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang\ti/driverlib/dl_gpio.h:2231:26: note: 'DL_GPIO_readPins' declared here
+ 2231 | __STATIC_INLINE uint32_t DL_GPIO_readPins(GPIO_Regs* gpio, uint32_t pins)
+      |                          ^                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../sensor.c:24:9: error: too few arguments to function call, expected 2, have 1
+   24 |     if (GPIO_READ(LS2_PORT, LS2_PIN)) { sensor_high_level_count++; } else { sensor_bits += 64U;  sensor_err += 888; }
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+..\main.h:67:59: note: expanded from macro 'GPIO_READ'
+   67 | #define GPIO_READ(port, pin)      (((DL_GPIO_readPins(port) & (pin)) != 0) ? 1U : 0U)
+      |                                      ~~~~~~~~~~~~~~~~     ^
+C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang\ti/driverlib/dl_gpio.h:2231:26: note: 'DL_GPIO_readPins' declared here
+ 2231 | __STATIC_INLINE uint32_t DL_GPIO_readPins(GPIO_Regs* gpio, uint32_t pins)
+      |                          ^                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../sensor.c:25:9: error: too few arguments to function call, expected 2, have 1
+   25 |     if (GPIO_READ(LS3_PORT, LS3_PIN)) { sensor_high_level_count++; } else { sensor_bits += 32U;  sensor_err += 666; }
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+..\main.h:67:59: note: expanded from macro 'GPIO_READ'
+   67 | #define GPIO_READ(port, pin)      (((DL_GPIO_readPins(port) & (pin)) != 0) ? 1U : 0U)
+      |                                      ~~~~~~~~~~~~~~~~     ^
+C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang\ti/driverlib/dl_gpio.h:2231:26: note: 'DL_GPIO_readPins' declared here
+ 2231 | __STATIC_INLINE uint32_t DL_GPIO_readPins(GPIO_Regs* gpio, uint32_t pins)
+      |                          ^                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../sensor.c:26:9: error: too few arguments to function call, expected 2, have 1
+   26 |     if (GPIO_READ(LS4_PORT, LS4_PIN)) { sensor_high_level_count++; } else { sensor_bits += 16U;  sensor_err += 333; }
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+..\main.h:67:59: note: expanded from macro 'GPIO_READ'
+   67 | #define GPIO_READ(port, pin)      (((DL_GPIO_readPins(port) & (pin)) != 0) ? 1U : 0U)
+      |                                      ~~~~~~~~~~~~~~~~     ^
+C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang\ti/driverlib/dl_gpio.h:2231:26: note: 'DL_GPIO_readPins' declared here
+ 2231 | __STATIC_INLINE uint32_t DL_GPIO_readPins(GPIO_Regs* gpio, uint32_t pins)
+      |                          ^                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../sensor.c:27:9: error: too few arguments to function call, expected 2, have 1
+   27 |     if (GPIO_READ(LS5_PORT, LS5_PIN)) { sensor_high_level_count++; } else { sensor_bits += 8U;   sensor_err -= 333; }
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+..\main.h:67:59: note: expanded from macro 'GPIO_READ'
+   67 | #define GPIO_READ(port, pin)      (((DL_GPIO_readPins(port) & (pin)) != 0) ? 1U : 0U)
+      |                                      ~~~~~~~~~~~~~~~~     ^
+C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang\ti/driverlib/dl_gpio.h:2231:26: note: 'DL_GPIO_readPins' declared here
+ 2231 | __STATIC_INLINE uint32_t DL_GPIO_readPins(GPIO_Regs* gpio, uint32_t pins)
+      |                          ^                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../sensor.c:28:9: error: too few arguments to function call, expected 2, have 1
+   28 |     if (GPIO_READ(LS6_PORT, LS6_PIN)) { sensor_high_level_count++; } else { sensor_bits += 4U;   sensor_err -= 666; }
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+..\main.h:67:59: note: expanded from macro 'GPIO_READ'
+   67 | #define GPIO_READ(port, pin)      (((DL_GPIO_readPins(port) & (pin)) != 0) ? 1U : 0U)
+      |                                      ~~~~~~~~~~~~~~~~     ^
+C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang\ti/driverlib/dl_gpio.h:2231:26: note: 'DL_GPIO_readPins' declared here
+ 2231 | __STATIC_INLINE uint32_t DL_GPIO_readPins(GPIO_Regs* gpio, uint32_t pins)
+      |                          ^                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../sensor.c:29:9: error: too few arguments to function call, expected 2, have 1
+   29 |     if (GPIO_READ(LS7_PORT, LS7_PIN)) { sensor_high_level_count++; } else { sensor_bits += 2U;   sensor_err -= 888; }
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+..\main.h:67:59: note: expanded from macro 'GPIO_READ'
+   67 | #define GPIO_READ(port, pin)      (((DL_GPIO_readPins(port) & (pin)) != 0) ? 1U : 0U)
+      |                                      ~~~~~~~~~~~~~~~~     ^
+C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang\ti/driverlib/dl_gpio.h:2231:26: note: 'DL_GPIO_readPins' declared here
+ 2231 | __STATIC_INLINE uint32_t DL_GPIO_readPins(GPIO_Regs* gpio, uint32_t pins)
+      |                          ^                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../sensor.c:30:9: error: too few arguments to function call, expected 2, have 1
+   30 |     if (GPIO_READ(LS8_PORT, LS8_PIN)) { sensor_high_level_count++; } else { sensor_bits += 1U;   sensor_err -= 999; }
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+..\main.h:67:59: note: expanded from macro 'GPIO_READ'
+   67 | #define GPIO_READ(port, pin)      (((DL_GPIO_readPins(port) & (pin)) != 0) ? 1U : 0U)
+      |                                      ~~~~~~~~~~~~~~~~     ^
+C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang\ti/driverlib/dl_gpio.h:2231:26: note: 'DL_GPIO_readPins' declared here
+ 2231 | __STATIC_INLINE uint32_t DL_GPIO_readPins(GPIO_Regs* gpio, uint32_t pins)
+      |                          ^                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1 warning and 8 errors generated.
+Arm Compiler: "../motor.c"
+"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/bin/tiarmclang.exe" -c @"device.opt"  -march=thumbv6m -mcpu=cortex-m0plus -mfloat-abi=soft -mlittle-endian -mthumb -O2 -I"C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang" -I"C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang/Debug" -I"D:/mspm0_sdk_2_10_00_04/source/third_party/CMSIS/Core/Include" -I"D:/mspm0_sdk_2_10_00_04/source" -gdwarf-3 -Wall -MMD -MP -MF"motor.d_raw" -MT"motor.o"  @"./device.opt"  -o"motor.o" "../motor.c"
+In file included from ../motor.c:1:
+In file included from ..\motor.h:4:
+..\main.h:10:9: warning: 'CPUCLK_FREQ' macro redefined [-Wmacro-redefined]
+   10 | #define CPUCLK_FREQ          32000000U
+      |         ^
+C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang/Debug\ti_msp_dl_config.h:76:9: note: previous definition is here
+   76 | #define CPUCLK_FREQ                                                     32000000
+      |         ^
+1 warning generated.
+ 
+Arm Compiler: "../mpu6050.c"
+"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/bin/tiarmclang.exe" -c @"device.opt"  -march=thumbv6m -mcpu=cortex-m0plus -mfloat-abi=soft -mlittle-endian -mthumb -O2 -I"C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang" -I"C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang/Debug" -I"D:/mspm0_sdk_2_10_00_04/source/third_party/CMSIS/Core/Include" -I"D:/mspm0_sdk_2_10_00_04/source" -gdwarf-3 -Wall -MMD -MP -MF"mpu6050.d_raw" -MT"mpu6050.o"  @"./device.opt"  -o"mpu6050.o" "../mpu6050.c"
+In file included from ../mpu6050.c:1:
+In file included from ..\mpu6050.h:4:
+..\main.h:10:9: warning: 'CPUCLK_FREQ' macro redefined [-Wmacro-redefined]
+   10 | #define CPUCLK_FREQ          32000000U
+      |         ^
+C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang/Debug\ti_msp_dl_config.h:76:9: note: previous definition is here
+   76 | #define CPUCLK_FREQ                                                     32000000
+      |         ^
+1 warning generated.
+ 
+Arm Compiler: "../task2.c"
+"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/bin/tiarmclang.exe" -c @"device.opt"  -march=thumbv6m -mcpu=cortex-m0plus -mfloat-abi=soft -mlittle-endian -mthumb -O2 -I"C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang" -I"C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang/Debug" -I"D:/mspm0_sdk_2_10_00_04/source/third_party/CMSIS/Core/Include" -I"D:/mspm0_sdk_2_10_00_04/source" -gdwarf-3 -Wall -MMD -MP -MF"task2.d_raw" -MT"task2.o"  @"./device.opt"  -o"task2.o" "../task2.c"
+In file included from ../task2.c:1:
+In file included from ..\task2.h:4:
+..\main.h:10:9: warning: 'CPUCLK_FREQ' macro redefined [-Wmacro-redefined]
+   10 | #define CPUCLK_FREQ          32000000U
+      |         ^
+C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang/Debug\ti_msp_dl_config.h:76:9: note: previous definition is here
+   76 | #define CPUCLK_FREQ                                                     32000000
+      |         ^
+1 warning generated.
+ 
+Arm Compiler: "../ti/driverlib/dl_adc12.c"
+"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/bin/tiarmclang.exe" -c @"device.opt"  -march=thumbv6m -mcpu=cortex-m0plus -mfloat-abi=soft -mlittle-endian -mthumb -O2 -I"C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang" -I"C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang/Debug" -I"D:/mspm0_sdk_2_10_00_04/source/third_party/CMSIS/Core/Include" -I"D:/mspm0_sdk_2_10_00_04/source" -gdwarf-3 -Wall -MMD -MP -MF"ti/driverlib/dl_adc12.d_raw" -MT"ti/driverlib/dl_adc12.o"  @"./device.opt"  -o"ti/driverlib/dl_adc12.o" "../ti/driverlib/dl_adc12.c"
+ 
+Arm Compiler: "../task3.c"
+"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/bin/tiarmclang.exe" -c @"device.opt"  -march=thumbv6m -mcpu=cortex-m0plus -mfloat-abi=soft -mlittle-endian -mthumb -O2 -I"C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang" -I"C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang/Debug" -I"D:/mspm0_sdk_2_10_00_04/source/third_party/CMSIS/Core/Include" -I"D:/mspm0_sdk_2_10_00_04/source" -gdwarf-3 -Wall -MMD -MP -MF"task3.d_raw" -MT"task3.o"  @"./device.opt"  -o"task3.o" "../task3.c"
+In file included from ../task3.c:1:
+In file included from ..\task3.h:4:
+..\main.h:10:9: warning: 'CPUCLK_FREQ' macro redefined [-Wmacro-redefined]
+   10 | #define CPUCLK_FREQ          32000000U
+      |         ^
+C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang/Debug\ti_msp_dl_config.h:76:9: note: previous definition is here
+   76 | #define CPUCLK_FREQ                                                     32000000
+      |         ^
+1 warning generated.
+ 
+Arm Compiler: "../tasks.c"
+"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/bin/tiarmclang.exe" -c @"device.opt"  -march=thumbv6m -mcpu=cortex-m0plus -mfloat-abi=soft -mlittle-endian -mthumb -O2 -I"C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang" -I"C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang/Debug" -I"D:/mspm0_sdk_2_10_00_04/source/third_party/CMSIS/Core/Include" -I"D:/mspm0_sdk_2_10_00_04/source" -gdwarf-3 -Wall -MMD -MP -MF"tasks.d_raw" -MT"tasks.o"  @"./device.opt"  -o"tasks.o" "../tasks.c"
+In file included from ../tasks.c:1:
+In file included from ..\tasks.h:4:
+..\main.h:10:9: warning: 'CPUCLK_FREQ' macro redefined [-Wmacro-redefined]
+   10 | #define CPUCLK_FREQ          32000000U
+      |         ^
+C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang/Debug\ti_msp_dl_config.h:76:9: note: previous definition is here
+   76 | #define CPUCLK_FREQ                                                     32000000
+      |         ^
+1 warning generated.
+ 
+Arm Compiler: "../ti/driverlib/dl_aes.c"
+"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/bin/tiarmclang.exe" -c @"device.opt"  -march=thumbv6m -mcpu=cortex-m0plus -mfloat-abi=soft -mlittle-endian -mthumb -O2 -I"C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang" -I"C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang/Debug" -I"D:/mspm0_sdk_2_10_00_04/source/third_party/CMSIS/Core/Include" -I"D:/mspm0_sdk_2_10_00_04/source" -gdwarf-3 -Wall -MMD -MP -MF"ti/driverlib/dl_aes.d_raw" -MT"ti/driverlib/dl_aes.o"  @"./device.opt"  -o"ti/driverlib/dl_aes.o" "../ti/driverlib/dl_aes.c"
+ 
+Arm Compiler: "../ti/driverlib/dl_aesadv.c"
+"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/bin/tiarmclang.exe" -c @"device.opt"  -march=thumbv6m -mcpu=cortex-m0plus -mfloat-abi=soft -mlittle-endian -mthumb -O2 -I"C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang" -I"C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang/Debug" -I"D:/mspm0_sdk_2_10_00_04/source/third_party/CMSIS/Core/Include" -I"D:/mspm0_sdk_2_10_00_04/source" -gdwarf-3 -Wall -MMD -MP -MF"ti/driverlib/dl_aesadv.d_raw" -MT"ti/driverlib/dl_aesadv.o"  @"./device.opt"  -o"ti/driverlib/dl_aesadv.o" "../ti/driverlib/dl_aesadv.c"
+ 
+Arm Compiler: "../task4.c"
+"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/bin/tiarmclang.exe" -c @"device.opt"  -march=thumbv6m -mcpu=cortex-m0plus -mfloat-abi=soft -mlittle-endian -mthumb -O2 -I"C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang" -I"C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang/Debug" -I"D:/mspm0_sdk_2_10_00_04/source/third_party/CMSIS/Core/Include" -I"D:/mspm0_sdk_2_10_00_04/source" -gdwarf-3 -Wall -MMD -MP -MF"task4.d_raw" -MT"task4.o"  @"./device.opt"  -o"task4.o" "../task4.c"
+In file included from ../task4.c:1:
+In file included from ..\task4.h:4:
+..\main.h:10:9: warning: 'CPUCLK_FREQ' macro redefined [-Wmacro-redefined]
+   10 | #define CPUCLK_FREQ          32000000U
+      |         ^
+C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang/Debug\ti_msp_dl_config.h:76:9: note: previous definition is here
+   76 | #define CPUCLK_FREQ                                                     32000000
+      |         ^
+1 warning generated.
+ 
+Arm Compiler: "../ti/driverlib/dl_common.c"
+"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/bin/tiarmclang.exe" -c @"device.opt"  -march=thumbv6m -mcpu=cortex-m0plus -mfloat-abi=soft -mlittle-endian -mthumb -O2 -I"C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang" -I"C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang/Debug" -I"D:/mspm0_sdk_2_10_00_04/source/third_party/CMSIS/Core/Include" -I"D:/mspm0_sdk_2_10_00_04/source" -gdwarf-3 -Wall -MMD -MP -MF"ti/driverlib/dl_common.d_raw" -MT"ti/driverlib/dl_common.o"  @"./device.opt"  -o"ti/driverlib/dl_common.o" "../ti/driverlib/dl_common.c"
+ 
+Arm Compiler: "../ti/driverlib/dl_comp.c"
+"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/bin/tiarmclang.exe" -c @"device.opt"  -march=thumbv6m -mcpu=cortex-m0plus -mfloat-abi=soft -mlittle-endian -mthumb -O2 -I"C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang" -I"C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang/Debug" -I"D:/mspm0_sdk_2_10_00_04/source/third_party/CMSIS/Core/Include" -I"D:/mspm0_sdk_2_10_00_04/source" -gdwarf-3 -Wall -MMD -MP -MF"ti/driverlib/dl_comp.d_raw" -MT"ti/driverlib/dl_comp.o"  @"./device.opt"  -o"ti/driverlib/dl_comp.o" "../ti/driverlib/dl_comp.c"
+ 
+Arm Compiler: "../ti/driverlib/dl_crc.c"
+"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/bin/tiarmclang.exe" -c @"device.opt"  -march=thumbv6m -mcpu=cortex-m0plus -mfloat-abi=soft -mlittle-endian -mthumb -O2 -I"C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang" -I"C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang/Debug" -I"D:/mspm0_sdk_2_10_00_04/source/third_party/CMSIS/Core/Include" -I"D:/mspm0_sdk_2_10_00_04/source" -gdwarf-3 -Wall -MMD -MP -MF"ti/driverlib/dl_crc.d_raw" -MT"ti/driverlib/dl_crc.o"  @"./device.opt"  -o"ti/driverlib/dl_crc.o" "../ti/driverlib/dl_crc.c"
+ 
+Arm Compiler: "../ti/driverlib/dl_crcp.c"
+"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/bin/tiarmclang.exe" -c @"device.opt"  -march=thumbv6m -mcpu=cortex-m0plus -mfloat-abi=soft -mlittle-endian -mthumb -O2 -I"C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang" -I"C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang/Debug" -I"D:/mspm0_sdk_2_10_00_04/source/third_party/CMSIS/Core/Include" -I"D:/mspm0_sdk_2_10_00_04/source" -gdwarf-3 -Wall -MMD -MP -MF"ti/driverlib/dl_crcp.d_raw" -MT"ti/driverlib/dl_crcp.o"  @"./device.opt"  -o"ti/driverlib/dl_crcp.o" "../ti/driverlib/dl_crcp.c"
+ 
+Arm Compiler: "../ti/driverlib/dl_dac12.c"
+"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/bin/tiarmclang.exe" -c @"device.opt"  -march=thumbv6m -mcpu=cortex-m0plus -mfloat-abi=soft -mlittle-endian -mthumb -O2 -I"C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang" -I"C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang/Debug" -I"D:/mspm0_sdk_2_10_00_04/source/third_party/CMSIS/Core/Include" -I"D:/mspm0_sdk_2_10_00_04/source" -gdwarf-3 -Wall -MMD -MP -MF"ti/driverlib/dl_dac12.d_raw" -MT"ti/driverlib/dl_dac12.o"  @"./device.opt"  -o"ti/driverlib/dl_dac12.o" "../ti/driverlib/dl_dac12.c"
+ 
+Arm Compiler: "../ti/driverlib/dl_dma.c"
+"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/bin/tiarmclang.exe" -c @"device.opt"  -march=thumbv6m -mcpu=cortex-m0plus -mfloat-abi=soft -mlittle-endian -mthumb -O2 -I"C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang" -I"C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang/Debug" -I"D:/mspm0_sdk_2_10_00_04/source/third_party/CMSIS/Core/Include" -I"D:/mspm0_sdk_2_10_00_04/source" -gdwarf-3 -Wall -MMD -MP -MF"ti/driverlib/dl_dma.d_raw" -MT"ti/driverlib/dl_dma.o"  @"./device.opt"  -o"ti/driverlib/dl_dma.o" "../ti/driverlib/dl_dma.c"
+ 
+Arm Compiler: "../ti/driverlib/dl_gpamp.c"
+"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/bin/tiarmclang.exe" -c @"device.opt"  -march=thumbv6m -mcpu=cortex-m0plus -mfloat-abi=soft -mlittle-endian -mthumb -O2 -I"C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang" -I"C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang/Debug" -I"D:/mspm0_sdk_2_10_00_04/source/third_party/CMSIS/Core/Include" -I"D:/mspm0_sdk_2_10_00_04/source" -gdwarf-3 -Wall -MMD -MP -MF"ti/driverlib/dl_gpamp.d_raw" -MT"ti/driverlib/dl_gpamp.o"  @"./device.opt"  -o"ti/driverlib/dl_gpamp.o" "../ti/driverlib/dl_gpamp.c"
+ 
+Arm Compiler: "../ti/driverlib/dl_gpio.c"
+"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/bin/tiarmclang.exe" -c @"device.opt"  -march=thumbv6m -mcpu=cortex-m0plus -mfloat-abi=soft -mlittle-endian -mthumb -O2 -I"C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang" -I"C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang/Debug" -I"D:/mspm0_sdk_2_10_00_04/source/third_party/CMSIS/Core/Include" -I"D:/mspm0_sdk_2_10_00_04/source" -gdwarf-3 -Wall -MMD -MP -MF"ti/driverlib/dl_gpio.d_raw" -MT"ti/driverlib/dl_gpio.o"  @"./device.opt"  -o"ti/driverlib/dl_gpio.o" "../ti/driverlib/dl_gpio.c"
+ 
+Arm Compiler: "../ti/driverlib/dl_i2s.c"
+"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/bin/tiarmclang.exe" -c @"device.opt"  -march=thumbv6m -mcpu=cortex-m0plus -mfloat-abi=soft -mlittle-endian -mthumb -O2 -I"C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang" -I"C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang/Debug" -I"D:/mspm0_sdk_2_10_00_04/source/third_party/CMSIS/Core/Include" -I"D:/mspm0_sdk_2_10_00_04/source" -gdwarf-3 -Wall -MMD -MP -MF"ti/driverlib/dl_i2s.d_raw" -MT"ti/driverlib/dl_i2s.o"  @"./device.opt"  -o"ti/driverlib/dl_i2s.o" "../ti/driverlib/dl_i2s.c"
+ 
+Arm Compiler: "../ti/driverlib/dl_i2c.c"
+"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/bin/tiarmclang.exe" -c @"device.opt"  -march=thumbv6m -mcpu=cortex-m0plus -mfloat-abi=soft -mlittle-endian -mthumb -O2 -I"C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang" -I"C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang/Debug" -I"D:/mspm0_sdk_2_10_00_04/source/third_party/CMSIS/Core/Include" -I"D:/mspm0_sdk_2_10_00_04/source" -gdwarf-3 -Wall -MMD -MP -MF"ti/driverlib/dl_i2c.d_raw" -MT"ti/driverlib/dl_i2c.o"  @"./device.opt"  -o"ti/driverlib/dl_i2c.o" "../ti/driverlib/dl_i2c.c"
+ 
+Arm Compiler: "../ti/driverlib/dl_flashctl.c"
+"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/bin/tiarmclang.exe" -c @"device.opt"  -march=thumbv6m -mcpu=cortex-m0plus -mfloat-abi=soft -mlittle-endian -mthumb -O2 -I"C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang" -I"C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang/Debug" -I"D:/mspm0_sdk_2_10_00_04/source/third_party/CMSIS/Core/Include" -I"D:/mspm0_sdk_2_10_00_04/source" -gdwarf-3 -Wall -MMD -MP -MF"ti/driverlib/dl_flashctl.d_raw" -MT"ti/driverlib/dl_flashctl.o"  @"./device.opt"  -o"ti/driverlib/dl_flashctl.o" "../ti/driverlib/dl_flashctl.c"
+ 
+Arm Compiler: "../ti/driverlib/dl_iwdt.c"
+"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/bin/tiarmclang.exe" -c @"device.opt"  -march=thumbv6m -mcpu=cortex-m0plus -mfloat-abi=soft -mlittle-endian -mthumb -O2 -I"C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang" -I"C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang/Debug" -I"D:/mspm0_sdk_2_10_00_04/source/third_party/CMSIS/Core/Include" -I"D:/mspm0_sdk_2_10_00_04/source" -gdwarf-3 -Wall -MMD -MP -MF"ti/driverlib/dl_iwdt.d_raw" -MT"ti/driverlib/dl_iwdt.o"  @"./device.opt"  -o"ti/driverlib/dl_iwdt.o" "../ti/driverlib/dl_iwdt.c"
+ 
+Arm Compiler: "../ti/driverlib/dl_keystorectl.c"
+"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/bin/tiarmclang.exe" -c @"device.opt"  -march=thumbv6m -mcpu=cortex-m0plus -mfloat-abi=soft -mlittle-endian -mthumb -O2 -I"C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang" -I"C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang/Debug" -I"D:/mspm0_sdk_2_10_00_04/source/third_party/CMSIS/Core/Include" -I"D:/mspm0_sdk_2_10_00_04/source" -gdwarf-3 -Wall -MMD -MP -MF"ti/driverlib/dl_keystorectl.d_raw" -MT"ti/driverlib/dl_keystorectl.o"  @"./device.opt"  -o"ti/driverlib/dl_keystorectl.o" "../ti/driverlib/dl_keystorectl.c"
+ 
+Arm Compiler: "../ti/driverlib/dl_lcd.c"
+"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/bin/tiarmclang.exe" -c @"device.opt"  -march=thumbv6m -mcpu=cortex-m0plus -mfloat-abi=soft -mlittle-endian -mthumb -O2 -I"C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang" -I"C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang/Debug" -I"D:/mspm0_sdk_2_10_00_04/source/third_party/CMSIS/Core/Include" -I"D:/mspm0_sdk_2_10_00_04/source" -gdwarf-3 -Wall -MMD -MP -MF"ti/driverlib/dl_lcd.d_raw" -MT"ti/driverlib/dl_lcd.o"  @"./device.opt"  -o"ti/driverlib/dl_lcd.o" "../ti/driverlib/dl_lcd.c"
+ 
+Arm Compiler: "../ti/driverlib/dl_lfss.c"
+"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/bin/tiarmclang.exe" -c @"device.opt"  -march=thumbv6m -mcpu=cortex-m0plus -mfloat-abi=soft -mlittle-endian -mthumb -O2 -I"C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang" -I"C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang/Debug" -I"D:/mspm0_sdk_2_10_00_04/source/third_party/CMSIS/Core/Include" -I"D:/mspm0_sdk_2_10_00_04/source" -gdwarf-3 -Wall -MMD -MP -MF"ti/driverlib/dl_lfss.d_raw" -MT"ti/driverlib/dl_lfss.o"  @"./device.opt"  -o"ti/driverlib/dl_lfss.o" "../ti/driverlib/dl_lfss.c"
+ 
+Arm Compiler: "../ti/driverlib/dl_mathacl.c"
+"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/bin/tiarmclang.exe" -c @"device.opt"  -march=thumbv6m -mcpu=cortex-m0plus -mfloat-abi=soft -mlittle-endian -mthumb -O2 -I"C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang" -I"C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang/Debug" -I"D:/mspm0_sdk_2_10_00_04/source/third_party/CMSIS/Core/Include" -I"D:/mspm0_sdk_2_10_00_04/source" -gdwarf-3 -Wall -MMD -MP -MF"ti/driverlib/dl_mathacl.d_raw" -MT"ti/driverlib/dl_mathacl.o"  @"./device.opt"  -o"ti/driverlib/dl_mathacl.o" "../ti/driverlib/dl_mathacl.c"
+ 
+Arm Compiler: "../ti/driverlib/dl_npu.c"
+"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/bin/tiarmclang.exe" -c @"device.opt"  -march=thumbv6m -mcpu=cortex-m0plus -mfloat-abi=soft -mlittle-endian -mthumb -O2 -I"C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang" -I"C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang/Debug" -I"D:/mspm0_sdk_2_10_00_04/source/third_party/CMSIS/Core/Include" -I"D:/mspm0_sdk_2_10_00_04/source" -gdwarf-3 -Wall -MMD -MP -MF"ti/driverlib/dl_npu.d_raw" -MT"ti/driverlib/dl_npu.o"  @"./device.opt"  -o"ti/driverlib/dl_npu.o" "../ti/driverlib/dl_npu.c"
+ 
+Arm Compiler: "../ti/driverlib/dl_opa.c"
+"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/bin/tiarmclang.exe" -c @"device.opt"  -march=thumbv6m -mcpu=cortex-m0plus -mfloat-abi=soft -mlittle-endian -mthumb -O2 -I"C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang" -I"C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang/Debug" -I"D:/mspm0_sdk_2_10_00_04/source/third_party/CMSIS/Core/Include" -I"D:/mspm0_sdk_2_10_00_04/source" -gdwarf-3 -Wall -MMD -MP -MF"ti/driverlib/dl_opa.d_raw" -MT"ti/driverlib/dl_opa.o"  @"./device.opt"  -o"ti/driverlib/dl_opa.o" "../ti/driverlib/dl_opa.c"
+ 
+Arm Compiler: "../ti/driverlib/dl_rtc.c"
+"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/bin/tiarmclang.exe" -c @"device.opt"  -march=thumbv6m -mcpu=cortex-m0plus -mfloat-abi=soft -mlittle-endian -mthumb -O2 -I"C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang" -I"C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang/Debug" -I"D:/mspm0_sdk_2_10_00_04/source/third_party/CMSIS/Core/Include" -I"D:/mspm0_sdk_2_10_00_04/source" -gdwarf-3 -Wall -MMD -MP -MF"ti/driverlib/dl_rtc.d_raw" -MT"ti/driverlib/dl_rtc.o"  @"./device.opt"  -o"ti/driverlib/dl_rtc.o" "../ti/driverlib/dl_rtc.c"
+ 
+Arm Compiler: "../ti/driverlib/dl_rtc_a.c"
+"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/bin/tiarmclang.exe" -c @"device.opt"  -march=thumbv6m -mcpu=cortex-m0plus -mfloat-abi=soft -mlittle-endian -mthumb -O2 -I"C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang" -I"C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang/Debug" -I"D:/mspm0_sdk_2_10_00_04/source/third_party/CMSIS/Core/Include" -I"D:/mspm0_sdk_2_10_00_04/source" -gdwarf-3 -Wall -MMD -MP -MF"ti/driverlib/dl_rtc_a.d_raw" -MT"ti/driverlib/dl_rtc_a.o"  @"./device.opt"  -o"ti/driverlib/dl_rtc_a.o" "../ti/driverlib/dl_rtc_a.c"
+ 
+Arm Compiler: "../ti/driverlib/dl_rtc_b.c"
+"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/bin/tiarmclang.exe" -c @"device.opt"  -march=thumbv6m -mcpu=cortex-m0plus -mfloat-abi=soft -mlittle-endian -mthumb -O2 -I"C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang" -I"C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang/Debug" -I"D:/mspm0_sdk_2_10_00_04/source/third_party/CMSIS/Core/Include" -I"D:/mspm0_sdk_2_10_00_04/source" -gdwarf-3 -Wall -MMD -MP -MF"ti/driverlib/dl_rtc_b.d_raw" -MT"ti/driverlib/dl_rtc_b.o"  @"./device.opt"  -o"ti/driverlib/dl_rtc_b.o" "../ti/driverlib/dl_rtc_b.c"
+ 
+Arm Compiler: "../ti/driverlib/dl_mcan.c"
+"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/bin/tiarmclang.exe" -c @"device.opt"  -march=thumbv6m -mcpu=cortex-m0plus -mfloat-abi=soft -mlittle-endian -mthumb -O2 -I"C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang" -I"C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang/Debug" -I"D:/mspm0_sdk_2_10_00_04/source/third_party/CMSIS/Core/Include" -I"D:/mspm0_sdk_2_10_00_04/source" -gdwarf-3 -Wall -MMD -MP -MF"ti/driverlib/dl_mcan.d_raw" -MT"ti/driverlib/dl_mcan.o"  @"./device.opt"  -o"ti/driverlib/dl_mcan.o" "../ti/driverlib/dl_mcan.c"
+ 
+Arm Compiler: "../ti/driverlib/dl_scratchpad.c"
+"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/bin/tiarmclang.exe" -c @"device.opt"  -march=thumbv6m -mcpu=cortex-m0plus -mfloat-abi=soft -mlittle-endian -mthumb -O2 -I"C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang" -I"C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang/Debug" -I"D:/mspm0_sdk_2_10_00_04/source/third_party/CMSIS/Core/Include" -I"D:/mspm0_sdk_2_10_00_04/source" -gdwarf-3 -Wall -MMD -MP -MF"ti/driverlib/dl_scratchpad.d_raw" -MT"ti/driverlib/dl_scratchpad.o"  @"./device.opt"  -o"ti/driverlib/dl_scratchpad.o" "../ti/driverlib/dl_scratchpad.c"
+ 
+Arm Compiler: "../ti/driverlib/dl_spgss.c"
+"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/bin/tiarmclang.exe" -c @"device.opt"  -march=thumbv6m -mcpu=cortex-m0plus -mfloat-abi=soft -mlittle-endian -mthumb -O2 -I"C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang" -I"C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang/Debug" -I"D:/mspm0_sdk_2_10_00_04/source/third_party/CMSIS/Core/Include" -I"D:/mspm0_sdk_2_10_00_04/source" -gdwarf-3 -Wall -MMD -MP -MF"ti/driverlib/dl_spgss.d_raw" -MT"ti/driverlib/dl_spgss.o"  @"./device.opt"  -o"ti/driverlib/dl_spgss.o" "../ti/driverlib/dl_spgss.c"
+ 
+Arm Compiler: "../ti/driverlib/dl_rtc_common.c"
+"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/bin/tiarmclang.exe" -c @"device.opt"  -march=thumbv6m -mcpu=cortex-m0plus -mfloat-abi=soft -mlittle-endian -mthumb -O2 -I"C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang" -I"C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang/Debug" -I"D:/mspm0_sdk_2_10_00_04/source/third_party/CMSIS/Core/Include" -I"D:/mspm0_sdk_2_10_00_04/source" -gdwarf-3 -Wall -MMD -MP -MF"ti/driverlib/dl_rtc_common.d_raw" -MT"ti/driverlib/dl_rtc_common.o"  @"./device.opt"  -o"ti/driverlib/dl_rtc_common.o" "../ti/driverlib/dl_rtc_common.c"
+ 
+Arm Compiler: "../ti/driverlib/dl_tamperio.c"
+"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/bin/tiarmclang.exe" -c @"device.opt"  -march=thumbv6m -mcpu=cortex-m0plus -mfloat-abi=soft -mlittle-endian -mthumb -O2 -I"C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang" -I"C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang/Debug" -I"D:/mspm0_sdk_2_10_00_04/source/third_party/CMSIS/Core/Include" -I"D:/mspm0_sdk_2_10_00_04/source" -gdwarf-3 -Wall -MMD -MP -MF"ti/driverlib/dl_tamperio.d_raw" -MT"ti/driverlib/dl_tamperio.o"  @"./device.opt"  -o"ti/driverlib/dl_tamperio.o" "../ti/driverlib/dl_tamperio.c"
+ 
+Arm Compiler: "../ti/driverlib/dl_spi.c"
+"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/bin/tiarmclang.exe" -c @"device.opt"  -march=thumbv6m -mcpu=cortex-m0plus -mfloat-abi=soft -mlittle-endian -mthumb -O2 -I"C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang" -I"C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang/Debug" -I"D:/mspm0_sdk_2_10_00_04/source/third_party/CMSIS/Core/Include" -I"D:/mspm0_sdk_2_10_00_04/source" -gdwarf-3 -Wall -MMD -MP -MF"ti/driverlib/dl_spi.d_raw" -MT"ti/driverlib/dl_spi.o"  @"./device.opt"  -o"ti/driverlib/dl_spi.o" "../ti/driverlib/dl_spi.c"
+ 
+Arm Compiler: "../ti/driverlib/dl_timera.c"
+"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/bin/tiarmclang.exe" -c @"device.opt"  -march=thumbv6m -mcpu=cortex-m0plus -mfloat-abi=soft -mlittle-endian -mthumb -O2 -I"C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang" -I"C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang/Debug" -I"D:/mspm0_sdk_2_10_00_04/source/third_party/CMSIS/Core/Include" -I"D:/mspm0_sdk_2_10_00_04/source" -gdwarf-3 -Wall -MMD -MP -MF"ti/driverlib/dl_timera.d_raw" -MT"ti/driverlib/dl_timera.o"  @"./device.opt"  -o"ti/driverlib/dl_timera.o" "../ti/driverlib/dl_timera.c"
+ 
+Arm Compiler: "../ti/driverlib/dl_timerb.c"
+"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/bin/tiarmclang.exe" -c @"device.opt"  -march=thumbv6m -mcpu=cortex-m0plus -mfloat-abi=soft -mlittle-endian -mthumb -O2 -I"C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang" -I"C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang/Debug" -I"D:/mspm0_sdk_2_10_00_04/source/third_party/CMSIS/Core/Include" -I"D:/mspm0_sdk_2_10_00_04/source" -gdwarf-3 -Wall -MMD -MP -MF"ti/driverlib/dl_timerb.d_raw" -MT"ti/driverlib/dl_timerb.o"  @"./device.opt"  -o"ti/driverlib/dl_timerb.o" "../ti/driverlib/dl_timerb.c"
+ 
+Arm Compiler: "../ti/driverlib/dl_timer.c"
+"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/bin/tiarmclang.exe" -c @"device.opt"  -march=thumbv6m -mcpu=cortex-m0plus -mfloat-abi=soft -mlittle-endian -mthumb -O2 -I"C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang" -I"C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang/Debug" -I"D:/mspm0_sdk_2_10_00_04/source/third_party/CMSIS/Core/Include" -I"D:/mspm0_sdk_2_10_00_04/source" -gdwarf-3 -Wall -MMD -MP -MF"ti/driverlib/dl_timer.d_raw" -MT"ti/driverlib/dl_timer.o"  @"./device.opt"  -o"ti/driverlib/dl_timer.o" "../ti/driverlib/dl_timer.c"
+ 
+Arm Compiler: "../ti/driverlib/dl_timerg.c"
+"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/bin/tiarmclang.exe" -c @"device.opt"  -march=thumbv6m -mcpu=cortex-m0plus -mfloat-abi=soft -mlittle-endian -mthumb -O2 -I"C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang" -I"C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang/Debug" -I"D:/mspm0_sdk_2_10_00_04/source/third_party/CMSIS/Core/Include" -I"D:/mspm0_sdk_2_10_00_04/source" -gdwarf-3 -Wall -MMD -MP -MF"ti/driverlib/dl_timerg.d_raw" -MT"ti/driverlib/dl_timerg.o"  @"./device.opt"  -o"ti/driverlib/dl_timerg.o" "../ti/driverlib/dl_timerg.c"
+ 
+Arm Compiler: "../ti/driverlib/dl_trng.c"
+"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/bin/tiarmclang.exe" -c @"device.opt"  -march=thumbv6m -mcpu=cortex-m0plus -mfloat-abi=soft -mlittle-endian -mthumb -O2 -I"C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang" -I"C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang/Debug" -I"D:/mspm0_sdk_2_10_00_04/source/third_party/CMSIS/Core/Include" -I"D:/mspm0_sdk_2_10_00_04/source" -gdwarf-3 -Wall -MMD -MP -MF"ti/driverlib/dl_trng.d_raw" -MT"ti/driverlib/dl_trng.o"  @"./device.opt"  -o"ti/driverlib/dl_trng.o" "../ti/driverlib/dl_trng.c"
+ 
+Arm Compiler: "../ti/driverlib/dl_uart.c"
+"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/bin/tiarmclang.exe" -c @"device.opt"  -march=thumbv6m -mcpu=cortex-m0plus -mfloat-abi=soft -mlittle-endian -mthumb -O2 -I"C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang" -I"C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang/Debug" -I"D:/mspm0_sdk_2_10_00_04/source/third_party/CMSIS/Core/Include" -I"D:/mspm0_sdk_2_10_00_04/source" -gdwarf-3 -Wall -MMD -MP -MF"ti/driverlib/dl_uart.d_raw" -MT"ti/driverlib/dl_uart.o"  @"./device.opt"  -o"ti/driverlib/dl_uart.o" "../ti/driverlib/dl_uart.c"
+ 
+Arm Compiler: "../ti/driverlib/dl_unicomm.c"
+"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/bin/tiarmclang.exe" -c @"device.opt"  -march=thumbv6m -mcpu=cortex-m0plus -mfloat-abi=soft -mlittle-endian -mthumb -O2 -I"C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang" -I"C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang/Debug" -I"D:/mspm0_sdk_2_10_00_04/source/third_party/CMSIS/Core/Include" -I"D:/mspm0_sdk_2_10_00_04/source" -gdwarf-3 -Wall -MMD -MP -MF"ti/driverlib/dl_unicomm.d_raw" -MT"ti/driverlib/dl_unicomm.o"  @"./device.opt"  -o"ti/driverlib/dl_unicomm.o" "../ti/driverlib/dl_unicomm.c"
+ 
+Arm Compiler: "../ti/driverlib/dl_unicommi2cc.c"
+"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/bin/tiarmclang.exe" -c @"device.opt"  -march=thumbv6m -mcpu=cortex-m0plus -mfloat-abi=soft -mlittle-endian -mthumb -O2 -I"C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang" -I"C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang/Debug" -I"D:/mspm0_sdk_2_10_00_04/source/third_party/CMSIS/Core/Include" -I"D:/mspm0_sdk_2_10_00_04/source" -gdwarf-3 -Wall -MMD -MP -MF"ti/driverlib/dl_unicommi2cc.d_raw" -MT"ti/driverlib/dl_unicommi2cc.o"  @"./device.opt"  -o"ti/driverlib/dl_unicommi2cc.o" "../ti/driverlib/dl_unicommi2cc.c"
+ 
+Arm Compiler: "../ti/driverlib/dl_unicommi2ct.c"
+"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/bin/tiarmclang.exe" -c @"device.opt"  -march=thumbv6m -mcpu=cortex-m0plus -mfloat-abi=soft -mlittle-endian -mthumb -O2 -I"C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang" -I"C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang/Debug" -I"D:/mspm0_sdk_2_10_00_04/source/third_party/CMSIS/Core/Include" -I"D:/mspm0_sdk_2_10_00_04/source" -gdwarf-3 -Wall -MMD -MP -MF"ti/driverlib/dl_unicommi2ct.d_raw" -MT"ti/driverlib/dl_unicommi2ct.o"  @"./device.opt"  -o"ti/driverlib/dl_unicommi2ct.o" "../ti/driverlib/dl_unicommi2ct.c"
+ 
+Arm Compiler: "../ti/driverlib/dl_unicommspi.c"
+"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/bin/tiarmclang.exe" -c @"device.opt"  -march=thumbv6m -mcpu=cortex-m0plus -mfloat-abi=soft -mlittle-endian -mthumb -O2 -I"C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang" -I"C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang/Debug" -I"D:/mspm0_sdk_2_10_00_04/source/third_party/CMSIS/Core/Include" -I"D:/mspm0_sdk_2_10_00_04/source" -gdwarf-3 -Wall -MMD -MP -MF"ti/driverlib/dl_unicommspi.d_raw" -MT"ti/driverlib/dl_unicommspi.o"  @"./device.opt"  -o"ti/driverlib/dl_unicommspi.o" "../ti/driverlib/dl_unicommspi.c"
+ 
+Arm Compiler: "../ti/driverlib/dl_unicommuart.c"
+"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/bin/tiarmclang.exe" -c @"device.opt"  -march=thumbv6m -mcpu=cortex-m0plus -mfloat-abi=soft -mlittle-endian -mthumb -O2 -I"C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang" -I"C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang/Debug" -I"D:/mspm0_sdk_2_10_00_04/source/third_party/CMSIS/Core/Include" -I"D:/mspm0_sdk_2_10_00_04/source" -gdwarf-3 -Wall -MMD -MP -MF"ti/driverlib/dl_unicommuart.d_raw" -MT"ti/driverlib/dl_unicommuart.o"  @"./device.opt"  -o"ti/driverlib/dl_unicommuart.o" "../ti/driverlib/dl_unicommuart.c"
+ 
+Arm Compiler: "../ti/driverlib/dl_vref.c"
+"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/bin/tiarmclang.exe" -c @"device.opt"  -march=thumbv6m -mcpu=cortex-m0plus -mfloat-abi=soft -mlittle-endian -mthumb -O2 -I"C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang" -I"C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang/Debug" -I"D:/mspm0_sdk_2_10_00_04/source/third_party/CMSIS/Core/Include" -I"D:/mspm0_sdk_2_10_00_04/source" -gdwarf-3 -Wall -MMD -MP -MF"ti/driverlib/dl_vref.d_raw" -MT"ti/driverlib/dl_vref.o"  @"./device.opt"  -o"ti/driverlib/dl_vref.o" "../ti/driverlib/dl_vref.c"
+ 
+Arm Compiler: "../ti/driverlib/dl_wwdt.c"
+"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/bin/tiarmclang.exe" -c @"device.opt"  -march=thumbv6m -mcpu=cortex-m0plus -mfloat-abi=soft -mlittle-endian -mthumb -O2 -I"C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang" -I"C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang/Debug" -I"D:/mspm0_sdk_2_10_00_04/source/third_party/CMSIS/Core/Include" -I"D:/mspm0_sdk_2_10_00_04/source" -gdwarf-3 -Wall -MMD -MP -MF"ti/driverlib/dl_wwdt.d_raw" -MT"ti/driverlib/dl_wwdt.o"  @"./device.opt"  -o"ti/driverlib/dl_wwdt.o" "../ti/driverlib/dl_wwdt.c"
+ 
+Arm Compiler: "../ti/driverlib/m0p/dl_factoryregion.c"
+"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/bin/tiarmclang.exe" -c @"device.opt"  -march=thumbv6m -mcpu=cortex-m0plus -mfloat-abi=soft -mlittle-endian -mthumb -O2 -I"C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang" -I"C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang/Debug" -I"D:/mspm0_sdk_2_10_00_04/source/third_party/CMSIS/Core/Include" -I"D:/mspm0_sdk_2_10_00_04/source" -gdwarf-3 -Wall -MMD -MP -MF"ti/driverlib/m0p/dl_factoryregion.d_raw" -MT"ti/driverlib/m0p/dl_factoryregion.o"  @"./device.opt"  -o"ti/driverlib/m0p/dl_factoryregion.o" "../ti/driverlib/m0p/dl_factoryregion.c"
+ 
+Arm Compiler: "../ti/driverlib/m0p/dl_interrupt.c"
+"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/bin/tiarmclang.exe" -c @"device.opt"  -march=thumbv6m -mcpu=cortex-m0plus -mfloat-abi=soft -mlittle-endian -mthumb -O2 -I"C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang" -I"C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang/Debug" -I"D:/mspm0_sdk_2_10_00_04/source/third_party/CMSIS/Core/Include" -I"D:/mspm0_sdk_2_10_00_04/source" -gdwarf-3 -Wall -MMD -MP -MF"ti/driverlib/m0p/dl_interrupt.d_raw" -MT"ti/driverlib/m0p/dl_interrupt.o"  @"./device.opt"  -o"ti/driverlib/m0p/dl_interrupt.o" "../ti/driverlib/m0p/dl_interrupt.c"
+ 
+Arm Compiler: "../ti/driverlib/m0p/sysctl/dl_sysctl_mspm0c1105_c1106.c"
+"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/bin/tiarmclang.exe" -c @"device.opt"  -march=thumbv6m -mcpu=cortex-m0plus -mfloat-abi=soft -mlittle-endian -mthumb -O2 -I"C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang" -I"C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang/Debug" -I"D:/mspm0_sdk_2_10_00_04/source/third_party/CMSIS/Core/Include" -I"D:/mspm0_sdk_2_10_00_04/source" -gdwarf-3 -Wall -MMD -MP -MF"ti/driverlib/m0p/sysctl/dl_sysctl_mspm0c1105_c1106.d_raw" -MT"ti/driverlib/m0p/sysctl/dl_sysctl_mspm0c1105_c1106.o"  @"./device.opt"  -o"ti/driverlib/m0p/sysctl/dl_sysctl_mspm0c1105_c1106.o" "../ti/driverlib/m0p/sysctl/dl_sysctl_mspm0c1105_c1106.c"
+ 
+Arm Compiler: "../ti/driverlib/m0p/sysctl/dl_sysctl_mspm0c110x.c"
+"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/bin/tiarmclang.exe" -c @"device.opt"  -march=thumbv6m -mcpu=cortex-m0plus -mfloat-abi=soft -mlittle-endian -mthumb -O2 -I"C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang" -I"C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang/Debug" -I"D:/mspm0_sdk_2_10_00_04/source/third_party/CMSIS/Core/Include" -I"D:/mspm0_sdk_2_10_00_04/source" -gdwarf-3 -Wall -MMD -MP -MF"ti/driverlib/m0p/sysctl/dl_sysctl_mspm0c110x.d_raw" -MT"ti/driverlib/m0p/sysctl/dl_sysctl_mspm0c110x.o"  @"./device.opt"  -o"ti/driverlib/m0p/sysctl/dl_sysctl_mspm0c110x.o" "../ti/driverlib/m0p/sysctl/dl_sysctl_mspm0c110x.c"
+ 
+Arm Compiler: "../ti/driverlib/m0p/sysctl/dl_sysctl_mspm0g352x.c"
+"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/bin/tiarmclang.exe" -c @"device.opt"  -march=thumbv6m -mcpu=cortex-m0plus -mfloat-abi=soft -mlittle-endian -mthumb -O2 -I"C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang" -I"C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang/Debug" -I"D:/mspm0_sdk_2_10_00_04/source/third_party/CMSIS/Core/Include" -I"D:/mspm0_sdk_2_10_00_04/source" -gdwarf-3 -Wall -MMD -MP -MF"ti/driverlib/m0p/sysctl/dl_sysctl_mspm0g352x.d_raw" -MT"ti/driverlib/m0p/sysctl/dl_sysctl_mspm0g352x.o"  @"./device.opt"  -o"ti/driverlib/m0p/sysctl/dl_sysctl_mspm0g352x.o" "../ti/driverlib/m0p/sysctl/dl_sysctl_mspm0g352x.c"
+ 
+Arm Compiler: "../ti/driverlib/m0p/sysctl/dl_sysctl_mspm0g1x0x_g3x0x.c"
+"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/bin/tiarmclang.exe" -c @"device.opt"  -march=thumbv6m -mcpu=cortex-m0plus -mfloat-abi=soft -mlittle-endian -mthumb -O2 -I"C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang" -I"C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang/Debug" -I"D:/mspm0_sdk_2_10_00_04/source/third_party/CMSIS/Core/Include" -I"D:/mspm0_sdk_2_10_00_04/source" -gdwarf-3 -Wall -MMD -MP -MF"ti/driverlib/m0p/sysctl/dl_sysctl_mspm0g1x0x_g3x0x.d_raw" -MT"ti/driverlib/m0p/sysctl/dl_sysctl_mspm0g1x0x_g3x0x.o"  @"./device.opt"  -o"ti/driverlib/m0p/sysctl/dl_sysctl_mspm0g1x0x_g3x0x.o" "../ti/driverlib/m0p/sysctl/dl_sysctl_mspm0g1x0x_g3x0x.c"
+ 
+Arm Compiler: "../ti/driverlib/m0p/sysctl/dl_sysctl_mspm0g511x.c"
+"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/bin/tiarmclang.exe" -c @"device.opt"  -march=thumbv6m -mcpu=cortex-m0plus -mfloat-abi=soft -mlittle-endian -mthumb -O2 -I"C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang" -I"C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang/Debug" -I"D:/mspm0_sdk_2_10_00_04/source/third_party/CMSIS/Core/Include" -I"D:/mspm0_sdk_2_10_00_04/source" -gdwarf-3 -Wall -MMD -MP -MF"ti/driverlib/m0p/sysctl/dl_sysctl_mspm0g511x.d_raw" -MT"ti/driverlib/m0p/sysctl/dl_sysctl_mspm0g511x.o"  @"./device.opt"  -o"ti/driverlib/m0p/sysctl/dl_sysctl_mspm0g511x.o" "../ti/driverlib/m0p/sysctl/dl_sysctl_mspm0g511x.c"
+ 
+Arm Compiler: "../ti/driverlib/m0p/sysctl/dl_sysctl_mspm0g518x.c"
+"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/bin/tiarmclang.exe" -c @"device.opt"  -march=thumbv6m -mcpu=cortex-m0plus -mfloat-abi=soft -mlittle-endian -mthumb -O2 -I"C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang" -I"C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang/Debug" -I"D:/mspm0_sdk_2_10_00_04/source/third_party/CMSIS/Core/Include" -I"D:/mspm0_sdk_2_10_00_04/source" -gdwarf-3 -Wall -MMD -MP -MF"ti/driverlib/m0p/sysctl/dl_sysctl_mspm0g518x.d_raw" -MT"ti/driverlib/m0p/sysctl/dl_sysctl_mspm0g518x.o"  @"./device.opt"  -o"ti/driverlib/m0p/sysctl/dl_sysctl_mspm0g518x.o" "../ti/driverlib/m0p/sysctl/dl_sysctl_mspm0g518x.c"
+ 
+Arm Compiler: "../ti/driverlib/m0p/sysctl/dl_sysctl_mspm0gx218_gx207.c"
+"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/bin/tiarmclang.exe" -c @"device.opt"  -march=thumbv6m -mcpu=cortex-m0plus -mfloat-abi=soft -mlittle-endian -mthumb -O2 -I"C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang" -I"C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang/Debug" -I"D:/mspm0_sdk_2_10_00_04/source/third_party/CMSIS/Core/Include" -I"D:/mspm0_sdk_2_10_00_04/source" -gdwarf-3 -Wall -MMD -MP -MF"ti/driverlib/m0p/sysctl/dl_sysctl_mspm0gx218_gx207.d_raw" -MT"ti/driverlib/m0p/sysctl/dl_sysctl_mspm0gx218_gx207.o"  @"./device.opt"  -o"ti/driverlib/m0p/sysctl/dl_sysctl_mspm0gx218_gx207.o" "../ti/driverlib/m0p/sysctl/dl_sysctl_mspm0gx218_gx207.c"
+ 
+Arm Compiler: "../ti/driverlib/m0p/sysctl/dl_sysctl_mspm0gx51x.c"
+"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/bin/tiarmclang.exe" -c @"device.opt"  -march=thumbv6m -mcpu=cortex-m0plus -mfloat-abi=soft -mlittle-endian -mthumb -O2 -I"C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang" -I"C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang/Debug" -I"D:/mspm0_sdk_2_10_00_04/source/third_party/CMSIS/Core/Include" -I"D:/mspm0_sdk_2_10_00_04/source" -gdwarf-3 -Wall -MMD -MP -MF"ti/driverlib/m0p/sysctl/dl_sysctl_mspm0gx51x.d_raw" -MT"ti/driverlib/m0p/sysctl/dl_sysctl_mspm0gx51x.o"  @"./device.opt"  -o"ti/driverlib/m0p/sysctl/dl_sysctl_mspm0gx51x.o" "../ti/driverlib/m0p/sysctl/dl_sysctl_mspm0gx51x.c"
+ 
+Arm Compiler: "../ti/driverlib/m0p/sysctl/dl_sysctl_mspm0h321x.c"
+"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/bin/tiarmclang.exe" -c @"device.opt"  -march=thumbv6m -mcpu=cortex-m0plus -mfloat-abi=soft -mlittle-endian -mthumb -O2 -I"C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang" -I"C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang/Debug" -I"D:/mspm0_sdk_2_10_00_04/source/third_party/CMSIS/Core/Include" -I"D:/mspm0_sdk_2_10_00_04/source" -gdwarf-3 -Wall -MMD -MP -MF"ti/driverlib/m0p/sysctl/dl_sysctl_mspm0h321x.d_raw" -MT"ti/driverlib/m0p/sysctl/dl_sysctl_mspm0h321x.o"  @"./device.opt"  -o"ti/driverlib/m0p/sysctl/dl_sysctl_mspm0h321x.o" "../ti/driverlib/m0p/sysctl/dl_sysctl_mspm0h321x.c"
+ 
+Arm Compiler: "../ti/driverlib/m0p/sysctl/dl_sysctl_mspm0l111x.c"
+"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/bin/tiarmclang.exe" -c @"device.opt"  -march=thumbv6m -mcpu=cortex-m0plus -mfloat-abi=soft -mlittle-endian -mthumb -O2 -I"C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang" -I"C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang/Debug" -I"D:/mspm0_sdk_2_10_00_04/source/third_party/CMSIS/Core/Include" -I"D:/mspm0_sdk_2_10_00_04/source" -gdwarf-3 -Wall -MMD -MP -MF"ti/driverlib/m0p/sysctl/dl_sysctl_mspm0l111x.d_raw" -MT"ti/driverlib/m0p/sysctl/dl_sysctl_mspm0l111x.o"  @"./device.opt"  -o"ti/driverlib/m0p/sysctl/dl_sysctl_mspm0l111x.o" "../ti/driverlib/m0p/sysctl/dl_sysctl_mspm0l111x.c"
+ 
+Arm Compiler: "../ti/driverlib/m0p/sysctl/dl_sysctl_mspm0l11xx_l13xx.c"
+"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/bin/tiarmclang.exe" -c @"device.opt"  -march=thumbv6m -mcpu=cortex-m0plus -mfloat-abi=soft -mlittle-endian -mthumb -O2 -I"C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang" -I"C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang/Debug" -I"D:/mspm0_sdk_2_10_00_04/source/third_party/CMSIS/Core/Include" -I"D:/mspm0_sdk_2_10_00_04/source" -gdwarf-3 -Wall -MMD -MP -MF"ti/driverlib/m0p/sysctl/dl_sysctl_mspm0l11xx_l13xx.d_raw" -MT"ti/driverlib/m0p/sysctl/dl_sysctl_mspm0l11xx_l13xx.o"  @"./device.opt"  -o"ti/driverlib/m0p/sysctl/dl_sysctl_mspm0l11xx_l13xx.o" "../ti/driverlib/m0p/sysctl/dl_sysctl_mspm0l11xx_l13xx.c"
+ 
+Arm Compiler: "../ti/driverlib/m0p/sysctl/dl_sysctl_mspm0l122x_l222x.c"
+"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/bin/tiarmclang.exe" -c @"device.opt"  -march=thumbv6m -mcpu=cortex-m0plus -mfloat-abi=soft -mlittle-endian -mthumb -O2 -I"C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang" -I"C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang/Debug" -I"D:/mspm0_sdk_2_10_00_04/source/third_party/CMSIS/Core/Include" -I"D:/mspm0_sdk_2_10_00_04/source" -gdwarf-3 -Wall -MMD -MP -MF"ti/driverlib/m0p/sysctl/dl_sysctl_mspm0l122x_l222x.d_raw" -MT"ti/driverlib/m0p/sysctl/dl_sysctl_mspm0l122x_l222x.o"  @"./device.opt"  -o"ti/driverlib/m0p/sysctl/dl_sysctl_mspm0l122x_l222x.o" "../ti/driverlib/m0p/sysctl/dl_sysctl_mspm0l122x_l222x.c"
+ 
+Arm Compiler: "../ti/driverlib/m0p/sysctl/dl_sysctl_mspm0l211x_l112x.c"
+"D:/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/bin/tiarmclang.exe" -c @"device.opt"  -march=thumbv6m -mcpu=cortex-m0plus -mfloat-abi=soft -mlittle-endian -mthumb -O2 -I"C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang" -I"C:/Users/Admin/workspace_ccstheia/empty_driverlib_src_LP_MSPM0G3507_nortos_ticlang/Debug" -I"D:/mspm0_sdk_2_10_00_04/source/third_party/CMSIS/Core/Include" -I"D:/mspm0_sdk_2_10_00_04/source" -gdwarf-3 -Wall -MMD -MP -MF"ti/driverlib/m0p/sysctl/dl_sysctl_mspm0l211x_l112x.d_raw" -MT"ti/driverlib/m0p/sysctl/dl_sysctl_mspm0l211x_l112x.o"  @"./device.opt"  -o"ti/driverlib/m0p/sysctl/dl_sysctl_mspm0l211x_l112x.o" "../ti/driverlib/m0p/sysctl/dl_sysctl_mspm0l211x_l112x.c"
+ 
+gmake: Target 'all' not remade because of errors.
+ 
+**** Build finished ****
+

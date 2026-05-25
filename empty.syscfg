@@ -1,0 +1,90 @@
+/**
+ * These arguments were used when this file was generated. They will be automatically applied on subsequent loads
+ * via the GUI or CLI. Run CLI with '--help' for additional information on how to override these arguments.
+ * @cliArgs --device "MSPM0G350X" --part "Default" --package "LQFP-64(PM)" --product "mspm0_sdk@2.10.00.04"
+ * @v2CliArgs --device "MSPM0G3507" --package "LQFP-64(PM)" --product "mspm0_sdk@2.10.00.04"
+ * @versions {"tool":"1.27.1+4634"}
+ */
+
+/**
+ * Import the modules used in this configuration.
+ */
+const Board         = scripting.addModule("/ti/driverlib/Board");
+const GPIO          = scripting.addModule("/ti/driverlib/GPIO", {}, false);
+const GPIO1         = GPIO.addInstance();
+const PWM           = scripting.addModule("/ti/driverlib/PWM", {}, false);
+const PWM1          = PWM.addInstance();
+const QEI           = scripting.addModule("/ti/driverlib/QEI", {}, false);
+const QEI1          = QEI.addInstance();
+const TIMER         = scripting.addModule("/ti/driverlib/TIMER", {}, false);
+const TIMER1        = TIMER.addInstance();
+const UART          = scripting.addModule("/ti/driverlib/UART", {}, false);
+const UART1         = UART.addInstance();
+const UART2         = UART.addInstance();
+const ProjectConfig = scripting.addModule("/ti/project_config/ProjectConfig");
+
+/**
+ * Write custom configuration values to the imported modules.
+ */
+
+GPIO1.$name                   = "GPIO_GRP_0";
+GPIO1.associatedPins[0].$name = "PIN_0";
+
+PWM1.$name                      = "PWM_0";
+PWM1.timerCount                 = 1600;
+PWM1.timerStartTimer            = true;
+PWM1.peripheral.$assign         = "TIMG6";
+PWM1.peripheral.ccp0Pin.$assign = "PB6";
+PWM1.peripheral.ccp1Pin.$assign = "PB7";
+PWM1.PWM_CHANNEL_0.$name        = "ti_driverlib_pwm_PWMTimerCC0";
+PWM1.PWM_CHANNEL_1.$name        = "ti_driverlib_pwm_PWMTimerCC1";
+PWM1.ccp0PinConfig.$name        = "ti_driverlib_gpio_GPIOPinGeneric6";
+PWM1.ccp1PinConfig.$name        = "ti_driverlib_gpio_GPIOPinGeneric7";
+
+QEI1.$name                      = "QEI_0";
+QEI1.timerStartTimer            = true;
+QEI1.peripheral.ccp0Pin.$assign = "PB15";
+QEI1.peripheral.ccp1Pin.$assign = "PB16";
+QEI1.ccp0PinConfig.$name        = "ti_driverlib_gpio_GPIOPinGeneric0";
+QEI1.ccp1PinConfig.$name        = "ti_driverlib_gpio_GPIOPinGeneric1";
+
+const SYSCTL = scripting.addModule("/ti/driverlib/SYSCTL", {}, false);
+
+TIMER1.$name            = "TIMER_0";
+TIMER1.timerMode        = "PERIODIC";
+TIMER1.timerPeriod      = "5 ms";
+TIMER1.interrupts       = ["ZERO"];
+TIMER1.timerStartTimer  = true;
+TIMER1.timerClkPrescale = 8;
+
+UART1.$name                    = "UART_0";
+UART1.targetBaudRate           = 115200;
+UART1.enableFIFO               = true;
+UART1.peripheral.$assign       = "UART0";
+UART1.peripheral.rxPin.$assign = "PA11";
+UART1.peripheral.txPin.$assign = "PA10";
+UART1.txPinConfig.$name        = "ti_driverlib_gpio_GPIOPinGeneric4";
+UART1.rxPinConfig.$name        = "ti_driverlib_gpio_GPIOPinGeneric5";
+
+UART2.$name                    = "UART_1";
+UART2.enableFIFO               = true;
+UART2.peripheral.$assign       = "UART1";
+UART2.peripheral.rxPin.$assign = "PA9";
+UART2.peripheral.txPin.$assign = "PA8";
+UART2.txPinConfig.$name        = "ti_driverlib_gpio_GPIOPinGeneric8";
+UART2.rxPinConfig.$name        = "ti_driverlib_gpio_GPIOPinGeneric9";
+
+ProjectConfig.genLibDL = false;
+
+/**
+ * Pinmux solution for unlocked pins/peripherals. This ensures that minor changes to the automatic solver in a future
+ * version of the tool will not impact the pinmux you originally saw.  These lines can be completely deleted in order to
+ * re-solve from scratch.
+ */
+Board.peripheral.$suggestSolution            = "DEBUGSS";
+Board.peripheral.swclkPin.$suggestSolution   = "PA20";
+Board.peripheral.swdioPin.$suggestSolution   = "PA19";
+GPIO1.associatedPins[0].pin.$suggestSolution = "PB13";
+QEI1.peripheral.$suggestSolution             = "TIMG8";
+SYSCTL.peripheral.$suggestSolution           = "SYSCTL";
+TIMER1.peripheral.$suggestSolution           = "TIMA0";
