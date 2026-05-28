@@ -21,13 +21,12 @@ void delay_ms(uint32_t ms);
 #define MOTOR_DIR_L2_PORT    GPIOB
 #define MOTOR_DIR_L2_PIN     DL_GPIO_PIN_17
 #define MOTOR_DIR_R1_PORT    GPIOB
-#define MOTOR_DIR_R1_PIN     DL_GPIO_PIN_18
+#define MOTOR_DIR_R1_PIN     DL_GPIO_PIN_10
 #define MOTOR_DIR_R2_PORT    GPIOB
 #define MOTOR_DIR_R2_PIN     DL_GPIO_PIN_19
 
-/*======== Right Encoder GPIO Interrupt ========*/
-#define RIGHT_ENC_PORT       GPIOA
-#define RIGHT_ENC_PIN        DL_GPIO_PIN_12
+/*======== Right Encoder ========*/
+/* Right encoder uses hardware QEI on TIMG0 (PA12/PA13), no GPIO defines needed */
 
 /*======== I2C (Software) for MPU6050 ========*/
 #define IIC_SCL_PORT         GPIOB
@@ -40,9 +39,9 @@ void delay_ms(uint32_t ms);
 #define LS1_PIN              DL_GPIO_PIN_15
 #define LS2_PORT             GPIOA
 #define LS2_PIN              DL_GPIO_PIN_17
-#define LS3_PORT             GPIOA
-#define LS3_PIN              DL_GPIO_PIN_27
-#define LS4_PORT             GPIOA
+#define LS3_PORT             GPIOB
+#define LS3_PIN              DL_GPIO_PIN_5
+#define LS4_PORT             GPIOB
 #define LS4_PIN              DL_GPIO_PIN_13
 #define LS5_PORT             GPIOB
 #define LS5_PIN              DL_GPIO_PIN_8

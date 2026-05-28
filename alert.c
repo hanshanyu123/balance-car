@@ -1,8 +1,8 @@
 #include "alert.h"
 #include "main.h"
 
-#define ALERT_BEEP_ACTIVE_LEVEL     1U
-#define ALERT_BEEP_INACTIVE_LEVEL   0U
+#define ALERT_BEEP_ACTIVE_LEVEL     0U
+#define ALERT_BEEP_INACTIVE_LEVEL   1U
 #define ALERT_LED_ACTIVE_LEVEL      0U
 #define ALERT_LED_INACTIVE_LEVEL    1U
 
@@ -21,7 +21,7 @@ static uint8_t alert_pulses_done = 0U;
 
 static void Alert_SetOutput(uint8_t on)
 {
-    GPIO_WRITE(BEEP_PORT, BEEP_PIN, on);
+    GPIO_WRITE(BEEP_PORT, BEEP_PIN, !on);
     GPIO_WRITE(LED_PORT, LED_PIN, !on);
 }
 

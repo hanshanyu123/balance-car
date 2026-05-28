@@ -48,6 +48,7 @@ QEI1.peripheral.ccp1Pin.$assign = "PB16";
 QEI1.ccp0PinConfig.$name        = "ti_driverlib_gpio_GPIOPinGeneric0";
 QEI1.ccp1PinConfig.$name        = "ti_driverlib_gpio_GPIOPinGeneric1";
 
+
 const SYSCTL = scripting.addModule("/ti/driverlib/SYSCTL", {}, false);
 
 TIMER1.$name            = "TIMER_0";
@@ -86,5 +87,6 @@ Board.peripheral.swclkPin.$suggestSolution   = "PA20";
 Board.peripheral.swdioPin.$suggestSolution   = "PA19";
 GPIO1.associatedPins[0].pin.$suggestSolution = "PB13";
 QEI1.peripheral.$suggestSolution             = "TIMG8";
+
 SYSCTL.peripheral.$suggestSolution           = "SYSCTL";
 TIMER1.peripheral.$suggestSolution           = "TIMA0";

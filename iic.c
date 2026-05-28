@@ -16,9 +16,16 @@ static void delay_us(uint32_t us) {
 
 void IIC_Init(void)
 {
-    /* Configure SCL and SDA as output open-drain */
-    DL_GPIO_initDigitalOutput(IOMUX_PINCM15); /* PB2 = SCL */
-    DL_GPIO_initDigitalOutput(IOMUX_PINCM16); /* PB3 = SDA */
+    /* Configure SCL and SDA as open-drain output with pull-up and input enable */
+    DL_GPIO_initDigitalOutputFeatures(IOMUX_PINCM15,
+        DL_GPIO_INVERSION_DISABLE, DL_GPIO_RESISTOR_PULL_UP,
+        DL_GPIO_DRIVE_STRENGTH_LOW, DL_GPIO_HIZ_ENABLE);
+    DL_GPIO_initDigitalOutputFeatures(IOMUX_PINCM16,
+        DL_GPIO_INVERSION_DISABLE, DL_GPIO_RESISTOR_PULL_UP,
+        DL_GPIO_DRIVE_STRENGTH_LOW, DL_GPIO_HIZ_ENABLE);
+    /* Enable input so SDA can be read back */
+    IOMUX->SECCFG.PINCM[IOMUX_PINCM15] |= IOMUX_PINCM_INENA_ENABLE;
+    IOMUX->SECCFG.PINCM[IOMUX_PINCM16] |= IOMUX_PINCM_INENA_ENABLE;
     DL_GPIO_enableOutput(IIC_SCL_PORT, IIC_SCL_PIN);
     DL_GPIO_enableOutput(IIC_SDA_PORT, IIC_SDA_PIN);
 

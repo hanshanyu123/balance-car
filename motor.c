@@ -10,7 +10,7 @@ static void Motor_Dir_GPIO_Init(void)
 {
     DL_GPIO_initDigitalOutput(IOMUX_PINCM31); /* PB14 */
     DL_GPIO_initDigitalOutput(IOMUX_PINCM43); /* PB17 */
-    DL_GPIO_initDigitalOutput(IOMUX_PINCM44); /* PB18 */
+    DL_GPIO_initDigitalOutput(IOMUX_PINCM27); /* PB10 */
     DL_GPIO_initDigitalOutput(IOMUX_PINCM45); /* PB19 */
 
     DL_GPIO_clearPins(MOTOR_DIR_L1_PORT, MOTOR_DIR_L1_PIN);

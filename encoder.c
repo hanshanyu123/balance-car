@@ -1,22 +1,45 @@
 #include "encoder.h"
 #include "main.h"
 
-/* Left encoder: QEI on TIMG8 */
-/* Right encoder: software GPIO interrupt on PA12 */
-static volatile int16_t right_encoder_count = 0;
+/* QEI_1 (Right Encoder) — manually configured, not via SysConfig.
+ * MSPM0G3507 SysConfig only supports 1 QEI instance.
+ * TIMG0 hardware supports QEI natively, configured here directly. */
+#define QEI_1_INST              TIMG0
+#define QEI_1_PHA_IOMUX         (IOMUX_PINCM34)   /* PA12 */
+#define QEI_1_PHA_FUNC          IOMUX_PINCM34_PF_TIMG0_CCP0
+#define QEI_1_PHB_IOMUX         (IOMUX_PINCM35)   /* PA13 */
+#define QEI_1_PHB_FUNC          IOMUX_PINCM35_PF_TIMG0_CCP1
+
+static void QEI_1_Init(void)
+{
+    DL_TimerG_reset(QEI_1_INST);
+    DL_TimerG_enablePower(QEI_1_INST);
+    delay_cycles(16);
+
+    DL_GPIO_initPeripheralInputFunction(QEI_1_PHA_IOMUX, QEI_1_PHA_FUNC);
+    DL_GPIO_initPeripheralInputFunction(QEI_1_PHB_IOMUX, QEI_1_PHB_FUNC);
+
+    static const DL_TimerG_ClockConfig clkCfg = {
+        .clockSel    = DL_TIMER_CLOCK_BUSCLK,
+        .divideRatio = DL_TIMER_CLOCK_DIVIDE_1,
+        .prescale    = 0U
+    };
+    DL_TimerG_setClockConfig(QEI_1_INST, (DL_TimerG_ClockConfig *)&clkCfg);
+
+    DL_TimerG_configQEI(QEI_1_INST, DL_TIMER_QEI_MODE_2_INPUT,
+        DL_TIMER_CC_INPUT_INV_NOINVERT, DL_TIMER_CC_0_INDEX);
+    DL_TimerG_configQEI(QEI_1_INST, DL_TIMER_QEI_MODE_2_INPUT,
+        DL_TIMER_CC_INPUT_INV_NOINVERT, DL_TIMER_CC_1_INDEX);
+    DL_TimerG_setLoadValue(QEI_1_INST, 65535);
+    DL_TimerG_enableClock(QEI_1_INST);
+    DL_TimerG_startCounter(QEI_1_INST);
+}
 
 void Encoder_Init(void)
 {
-    right_encoder_count = 0;
-
-    /* Configure PA12 (IOMUX_PINCM34) as input with interrupt for right encoder */
-    DL_GPIO_initDigitalInput(IOMUX_PINCM34);
-    DL_GPIO_setLowerPinsPolarity(GPIOA, DL_GPIO_PIN_12_EDGE_RISE_FALL);
-    DL_GPIO_enableInterrupt(GPIOA, RIGHT_ENC_PIN);
-    NVIC_EnableIRQ(GPIOA_INT_IRQn);
-
-    /* Read initial encoder values to clear QEI counter */
     (void)DL_TimerG_getTimerCount(QEI_0_INST);
+    QEI_1_Init();
+    (void)DL_TimerG_getTimerCount(QEI_1_INST);
 }
 
 int Read_Encoder(uint8_t side)
@@ -24,25 +47,12 @@ int Read_Encoder(uint8_t side)
     int count = 0;
 
     if (side == 0) {
-        /* Left encoder: TIMG8 QEI */
         count = (int16_t)DL_TimerG_getTimerCount(QEI_0_INST);
         DL_TimerG_setTimerCount(QEI_0_INST, 0);
     } else {
-        /* Right encoder: software interrupt counter */
-        __disable_irq();
-        count = right_encoder_count;
-        right_encoder_count = 0;
-        __enable_irq();
+        count = -(int16_t)DL_TimerG_getTimerCount(QEI_1_INST);
+        DL_TimerG_setTimerCount(QEI_1_INST, 0);
     }
 
     return count;
-}
-
-/* GPIOA interrupt handler for right encoder */
-void GPIOA_IRQHandler(void)
-{
-    if (DL_GPIO_getEnabledInterruptStatus(GPIOA, RIGHT_ENC_PIN) & RIGHT_ENC_PIN) {
-        right_encoder_count++;
-        DL_GPIO_clearInterruptStatus(GPIOA, RIGHT_ENC_PIN);
-    }
 }
